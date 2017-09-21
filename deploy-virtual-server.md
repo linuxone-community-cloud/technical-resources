@@ -109,11 +109,11 @@ This document will take you through the steps to get access to the LinuxONE comm
 
     1. If this server is for generic purpose use, select **General purpose VM**.
 
-   ![alt text](images-deploy/create-server-type-general.png "Create server type - General purpose")
+   ![alt text](images-deploy/create-server-type-general.png "Create server type General purpose")
 
     2. If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required. 
 
-   ![alt text](images-deploy/create-server-type-hackathon.png "Create server type - Hackathon")
+   ![alt text](images-deploy/create-server-type-hackathon.png "Create server type Hackathon")
 
 3)	Provide details information for this instance.  Enter:
 
