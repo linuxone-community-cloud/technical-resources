@@ -42,62 +42,103 @@ Note: You will see a countdown timer.  If you don’t get a code, you can get a 
  
 7) You will see this THANK YOU page indicating your registration is successful.
  
-   ![alt text](images-deploy/registration-successful.png "Registration successful email")
+   ![alt text](images-deploy/registration-successful.png "Registration successful message")
 
 8) You now have access to the LinuxONE Community Cloud self service portal.
     1) Click Sign In.
 
 9) Check your email for a registration confirmation similar to the following shown. You will need your User ID and Password from this email to sign in to the self service portal.
 
+   ![alt text](images-deploy/welcome-email.png "Welcome email")
+
+
 ## First time setup
 
 1) Back in your browser, from the self service portal login page:
-   a)	Enter your user ID and password.
-   b)	Click Sign in.
+    1)	Enter your user ID and password.
+    2)	Click **Sign in**.
 
-2) Now is a good time to change your password to one that is secure easy for you to remember. This can be done after the initial sign in by selecting your username from the upper right corner of the web page and selecting account settings. 
+   ![alt text](images-deploy/ssp-login.png "Self-Service Portal login page")
+
+2) Now is a good time to change your password to one that is secure easy for you to remember. This can be done after the initial sign in.
+    1) Select your **username** from the upper right corner of the Home page.
+    2) Selecting **Account settings**. 
+    3) Change your password.
+ 
+   ![alt text](images-deploy/account-settings.png "Welcome email")
+
  
 3) Now is also a good time to create or import an SSH key.  An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
-This can be done by selecting your username from the upper right corner of the web page and selecting Manage SSH Key Pairs.
+
+    1) Select your username from the upper right corner of the Home page
+    2) Select **Manage SSH Key Pairs**.
  
-   a) If you already have an public SSH key you wish to use with this cloud:
-      1) Click Import. 
-      2) Enter a name for this key.
-      3) Browse your local file system to select the public key path.
-      4) Click Upload your public key.
+    3) If you already have an public SSH key you wish to use with this cloud     
+        1) Click Import. 
+        2) Enter a name for this key.
+        3) Browse your local file system to select the public key path.
+        4) Click Upload your public key.
+       
+       ![alt text](images-deploy/upload-key.png "Import SSH key")
  
-   b) If you want to create a new SSH key pair:
-      1) Click Create.
-      2) Enter a name for this key.
-      3) Click Create a new key pair.
- 
-      4) A pop-up window will appear asking you to save a yourkey. pem file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. 
+    4) If you want to create a new SSH key pair:     
+        1) Click Create.
+        2) Enter a name for this key.
+        3) Click Create a new key pair.
+        
+       ![alt text](images-deploy/create-key.png "Create SSH key")
+       
+        4) A pop-up window will appear asking you to save a yourkey. pem file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. 
+        
+       ![alt text](images-deploy/pem-file.png "Save SSH private key")   
  
 ## Deploy your LinuxONE virtual server
 
-1) Go to the **Home** page, Infrastructure section, Virtual Servers.
-   a) Click Manage Instances.
-   b) Click Create.
+1) Go to the **Home** page, **Infrastructure** section and **Virtual Servers** service.
+    1) Click **Manage Instances**.
+    
+   ![alt text](images-deploy/manage-instances.png "Manage instances")
+       
+    2) Click **Create**.
+    
+   ![alt text](images-deploy/create-server.png "Create server")
 
-2) Complete the following information:
-   a)	Select a type:
-      1) Select General purpose VM if this server is for generic purpose.
-      2) Select Hackathon if this server is for a Hackathon event.  A valid event code is required. 
-   b)	Provide details information for this instance.  Enter:
-      1) An instance name, without any spaces or special characters. 
-      2) An instance description. 
- 
-   c) Select the desired Linux image.
+2)	Select a type:
+    1) Select **General purpose VM** if this server is for generic purpose.
+    
+   ![alt text](images-deploy/create-server-type-general.png "Create server type - General purpose")
+       
+    2) Select **Hackathon** if this server is for a Hackathon event.  A valid event code is required. 
+    
+   ![alt text](images-deploy/create-server-type-hackathon.png "Create server type - Hackathon")
+    
+3)	Provide details information for this instance.  Enter:
+    1) An instance name, without any spaces or special characters. 
+    2) An instance description. 
+    
+   ![alt text](images-deploy/create-server-details.png "Create server details")
+   
+4) Select the desired Linux image.
+
+   ![alt text](images-deploy/create-server-image.png "Create server image")
   
-   d)	Select the desired flavor (configuration).
+5)	Select the desired flavor (configuration).
+
+   ![alt text](images-deploy/create-server-flavor.png "Create server flavor")
  
-   e)	Select the SSH key to use.
+6)	Select the SSH key to use.
+
+   ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
  
-   f)	Verify that all the information is correct and click Create.
+7)	Verify that all the information is correct and click **Create**.
+
+   ![alt text](images-deploy/create-server-submit.png "Create server submit")
  
 3) Watch the status of your newly deployed instance go through the following phases of start up:  networking > spawning > Active.  When your instance status changes to active, it is ready for use.
+
+   ![alt text](images-deploy/create-server-status.png "Create server status")
  
-Write down the IP address of your instance. You will need it to log in.
+   Write down the IP address of your instance. You will need it to log in.
 
 ## Log in to your LinuxONE virtual server
 
@@ -106,35 +147,39 @@ Write down the IP address of your instance. You will need it to log in.
 1) Open the Terminal application.
 2) Ensure that you have the SSH private key used to deploy the server. 
 3) If you have not done so already, change the permission bits of this key to 600.
-Chmod 600 /path/to/key/keyname.pem 
+   ```sh
+   Chmod 600 /path/to/key/keyname.pem  
+   ```
 4) Log in, with SSH, to the linux1 user ID.
-ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
-
+   ```sh
+   ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
+   ```
 ### From Windows using PuTTY
 
-1) Set up PuTTY to use the SSH key for your server.  Refer to the Setting up PUTTY on Windows to use ssh private key tutorial.
+1) Set up PuTTY to use the SSH key for your server.  Refer to the [Setting up PUTTY on Windows to use ssh private key](http://developer.ibm.com/linuxone/wp-content/uploads/sites/57/2016/02/PUTTY-Set-up.pdf) tutorial.
 2) Log in to the linux1 user ID. 
 
-Notes:
+## Important notes about your server:
 1) You can use ‘sudo’ to execute commands that require root authority.
+
 2) It could take up to 10 minutes to format and mount the /data disk.  Issue the following command to verify the /data disk is available before continuing:
-ssh –i
- 
+   ```sh
+   df -h 
+   ``` 
+   ![alt text](images-deploy/df.png "Check /data disk")
+   
 3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. For example:
-iptables -I INPUT -p tcp --dport <port#> -j ACCEPT
-If you want to make your changes permanently, issue command:
-"iptables-save > /etc/sysconfig/iptables" 
+   ```sh
+   iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
+   ```
+   If you want to make your changes permanently, issue this command:
+   ```sh
+   iptables-save > /etc/sysconfig/iptables 
+   ``` 
+  
+4) You must log in with the user ‘linux1’ with your SSH private key. No modification (use of password authentication, for example) is allowed.
 
- 
-## Important notes about your deployed Linux server
+5) The user ‘root’ login is disabled for security reasons. No modification is allowed.
 
-1) You must log in with the user ‘linux1’ with your SSH private key. No modification (use of password authentication, for example) is allowed.
-2) The user ‘root’ login is disabled for security reasons. No modification is allowed.
-3) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
-4) Any misuse of the server will result in termination of account immediately without notice.  Please refer the Terms and Conditions for using the LinuxONE Community Cloud.
+6) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
 
-## Links
-
-https://developer.ibm.com/linuxone/
-https://developer.ibm.com/code/
-https://developer.ibm.com/linuxone/wp-content/uploads/sites/57/virtual-servers-quick-start.pdf
