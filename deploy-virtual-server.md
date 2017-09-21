@@ -28,15 +28,15 @@ This document will take you through the steps to get access to the LinuxONE comm
  
    ![alt text](images-deploy/get-code.png "Get verification code")
    
-   >Note: You will see a countdown timer.  If you don’t get a code, you can get a new one when the timer expires. Do not repeatedly click 'Get Code'.  Each click will send you a new code, invalidating the previous one.
+   >Note: You will see a countdown timer.  If you don’t get a code within a reasonable amount of time, you can request a new one when the timer expires. Do not repeatedly click 'Get Code'.  Each click will send you a new code, invalidating the previous one.
 
 5) Go to your mobile phone and check for an SMS message from LinuxONE.  
 
    ![alt text](images-deploy/phone.png "SMS code ")
  
 6) Complete your registration.
-    1) Enter the “LinuxONE Community Cloud registration code”.
-    2) Click Request your trial.
+    1) Enter the **LinuxONE Community Cloud registration code**.
+    2) Click **Request your trial**.
 
    ![alt text](images-deploy/request-your-trial.png "Submit registration form")    
  
@@ -45,7 +45,7 @@ This document will take you through the steps to get access to the LinuxONE comm
    ![alt text](images-deploy/registration-successful.png "Registration successful message")
 
 8) You now have access to the LinuxONE Community Cloud self service portal.
-    1) Click Sign In.
+    1) Click **Sign In**.
 
 9) Check your email for a registration confirmation similar to the following shown. You will need your User ID and Password from this email to sign in to the self service portal.
 
@@ -55,40 +55,44 @@ This document will take you through the steps to get access to the LinuxONE comm
 ## First time setup
 
 1) Back in your browser, from the self service portal login page:
-    1)	Enter your user ID and password.
+    1)	Enter your **user ID** and **password** found in the registration successful email.
     2)	Click **Sign in**.
 
    ![alt text](images-deploy/ssp-login.png "Self-Service Portal login page")
 
 2) Now is a good time to change your password to one that is secure easy for you to remember. This can be done after the initial sign in.
-    1) Select your **username** from the upper right corner of the Home page.
-    2) Selecting **Account settings**. 
-    3) Change your password.
+    1) Click your **username** from the upper right corner of the Home page.
+    2) Select **Account Settings**. 
+    3) Provide the necessary information to change your password.
  
-   ![alt text](images-deploy/account-settings.png "Welcome email")
-
+   ![alt text](images-deploy/account-settings.png "Account settings")
+   
+   ![alt text](images-deploy/change-password.png "Change password")
  
-3) Now is also a good time to create or import an SSH key.  An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
+ 
+3) Now is also a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
 
-    1) Select your username from the upper right corner of the Home page
+    1) Click your **username** from the upper right corner of the Home page
     2) Select **Manage SSH Key Pairs**.
+    
+   ![alt text](images-deploy/manage-key.png "Manage SSH keys") 
  
-    3) If you already have an public SSH key you wish to use with this cloud     
-        1) Click Import. 
-        2) Enter a name for this key.
-        3) Browse your local file system to select the public key path.
-        4) Click Upload your public key.
+    3) If you already have a public SSH key you wish to use with this cloud     
+        1) Click **Import**. 
+        2) Enter a **Key Name** for this key.
+        3) Browse your local file system to select the **public key path**.
+        4) Click **Upload your public key**.
        
        ![alt text](images-deploy/upload-key.png "Import SSH key")
  
     4) If you want to create a new SSH key pair:     
-        1) Click Create.
-        2) Enter a name for this key.
-        3) Click Create a new key pair.
+        1) Click **Create**.
+        2) Enter a **Key Name** for this key.
+        3) Click **Create a new key pair**.
         
        ![alt text](images-deploy/create-key.png "Create SSH key")
        
-        4) A pop-up window will appear asking you to save a yourkey. pem file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. 
+        4) A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save file. 
         
        ![alt text](images-deploy/pem-file.png "Save SSH private key")   
  
@@ -103,40 +107,42 @@ This document will take you through the steps to get access to the LinuxONE comm
     
    ![alt text](images-deploy/create-server.png "Create server")
 
-2)	Select a type:
-    1) Select **General purpose VM** if this server is for generic purpose.
+2)	Select a virtual server type.
+    
+    1) If this server is for generic purpose use, select **General purpose VM**.
     
    ![alt text](images-deploy/create-server-type-general.png "Create server type - General purpose")
        
-    2) Select **Hackathon** if this server is for a Hackathon event.  A valid event code is required. 
+    2) If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required. 
     
-   ![alt text](images-deploy/create-server-type-hackathon.png "Create server type - Hackathon")
+    ![alt text](images-deploy/create-server-type-hackathon.png "Create server type - Hackathon")
     
 3)	Provide details information for this instance.  Enter:
-    1) An instance name, without any spaces or special characters. 
-    2) An instance description. 
+
+    1) An **Instance Name**, without any spaces or special characters. 
+    2) An **Instance Gescription**. 
     
-   ![alt text](images-deploy/create-server-details.png "Create server details")
+    ![alt text](images-deploy/create-server-details.png "Create server details")
    
 4) Select the desired Linux image.
 
-   ![alt text](images-deploy/create-server-image.png "Create server image")
+    ![alt text](images-deploy/create-server-image.png "Create server image")
   
 5)	Select the desired flavor (configuration).
-
-   ![alt text](images-deploy/create-server-flavor.png "Create server flavor")
+   
+    ![alt text](images-deploy/create-server-flavor.png "Create server flavor")
  
 6)	Select the SSH key to use.
 
-   ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
+    ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
  
 7)	Verify that all the information is correct and click **Create**.
 
-   ![alt text](images-deploy/create-server-submit.png "Create server submit")
+    ![alt text](images-deploy/create-server-submit.png "Create server submit")
  
-3) Watch the status of your newly deployed instance go through the following phases of start up:  networking > spawning > Active.  When your instance status changes to active, it is ready for use.
+3) Watch the status of your newly deployed instance go through the following phases of start up:  **networking**, **spawning**,  **Active**.  When your instance status changes to active, it is ready for use.
 
-   ![alt text](images-deploy/create-server-status.png "Create server status")
+    ![alt text](images-deploy/create-server-status.png "Create server status")
  
    Write down the IP address of your instance. You will need it to log in.
 
@@ -147,16 +153,19 @@ This document will take you through the steps to get access to the LinuxONE comm
 1) Open the Terminal application.
 2) Ensure that you have the SSH private key used to deploy the server. 
 3) If you have not done so already, change the permission bits of this key to 600.
+
    ```sh
-   Chmod 600 /path/to/key/keyname.pem  
+   chmod 600 /path/to/key/keyname.pem  
    ```
-4) Log in, with SSH, to the linux1 user ID.
+4) Log in to the linux1 user ID with SSH.
+
    ```sh
    ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
    ```
 ### From Windows using PuTTY
 
 1) Set up PuTTY to use the SSH key for your server.  Refer to the [Setting up PUTTY on Windows to use ssh private key](http://developer.ibm.com/linuxone/wp-content/uploads/sites/57/2016/02/PUTTY-Set-up.pdf) tutorial.
+
 2) Log in to the linux1 user ID. 
 
 ## Important notes about your server:
