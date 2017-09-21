@@ -32,7 +32,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 5) Go to your mobile phone and check for an SMS message from LinuxONE.  
 
-   ![alt text](images-deploy/phone.png "SMS code ")
+   ![alt text](images-deploy/phone.png "SMS code")
 
 6) Complete your registration.
     1) Enter the **LinuxONE Community Cloud registration code**.
@@ -88,12 +88,10 @@ This document will take you through the steps to get access to the LinuxONE comm
     4) If you want to create a new SSH key pair:     
         1. Click **Create**.
         2. Enter a **Key Name** for this key.
-        3. Click **Create a new key pair**.
-        
-   ![alt text](images-deploy/create-key.png "Create SSH key")
-        
+        3. Click **Create a new key pair**.   
         4. A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
 
+   ![alt text](images-deploy/create-key.png "Create SSH key")
    ![alt text](images-deploy/pem-file.png "Save SSH private key")   
 
 ## Deploy your LinuxONE virtual server
