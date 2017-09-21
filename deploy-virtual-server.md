@@ -60,7 +60,8 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/ssp-login.png "Self-Service Portal login page")
 
-2) Now is a good time to change your password to one that is secure easy for you to remember. This can be done after the initial sign in.
+2) Now is a good time to change your password to one that is secure and easy for you to remember. 
+
     1) Click your **username** from the upper right corner of the Home page.
     2) Select **Account Settings**. 
     3) Provide the necessary information to change your password.
@@ -71,55 +72,54 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 3) Now is also a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
 
-    1) Click your **username** from the upper right corner of the Home page
+    1) Click your **username** from the upper right corner of the Home page.
     2) Select **Manage SSH Key Pairs**.
  
    ![alt text](images-deploy/manage-key.png "Manage SSH keys") 
  
-    3) If you already have a public SSH key you wish to use with this cloud     
-        1) Click **Import**. 
-        2) Enter a **Key Name** for this key.
-        3) Browse your local file system to select the **public key path**.
-        4) Click **Upload your public key**.
+    3) If you already have a public SSH key you wish to use with this cloud:    
+        1. Click **Import**. 
+        2. Enter a **Key Name** for this key.
+        3. Browse your local file system to select the **public key path**.
+        4. Click **Upload your public key**.
 
-       ![alt text](images-deploy/upload-key.png "Import SSH key")
+   ![alt text](images-deploy/upload-key.png "Import SSH key")
 
     4) If you want to create a new SSH key pair:     
-        1) Click **Create**.
-        2) Enter a **Key Name** for this key.
-        3) Click **Create a new key pair**.
+        1. Click **Create**.
+        2. Enter a **Key Name** for this key.
+        3. Click **Create a new key pair**.
 
-       ![alt text](images-deploy/create-key.png "Create SSH key")
+   ![alt text](images-deploy/create-key.png "Create SSH key")
+        4. A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
 
-        4) A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save file. 
-
-       ![alt text](images-deploy/pem-file.png "Save SSH private key")   
+   ![alt text](images-deploy/pem-file.png "Save SSH private key")   
 
 ## Deploy your LinuxONE virtual server
 
 1) Go to the **Home** page, **Infrastructure** section and **Virtual Servers** service.
-    1) Click **Manage Instances**.
+    1. Click **Manage Instances**.
 
    ![alt text](images-deploy/manage-instances.png "Manage instances")
 
-    2) Click **Create**.
+    2. Click **Create**.
 
    ![alt text](images-deploy/create-server.png "Create server")
 
 2)	Select a virtual server type.
 
-    1) If this server is for generic purpose use, select **General purpose VM**.
+    1. If this server is for generic purpose use, select **General purpose VM**.
 
    ![alt text](images-deploy/create-server-type-general.png "Create server type - General purpose")
 
-    2) If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required. 
+    2. If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required. 
 
    ![alt text](images-deploy/create-server-type-hackathon.png "Create server type - Hackathon")
 
 3)	Provide details information for this instance.  Enter:
 
-    1) An **Instance Name**, without any spaces or special characters. 
-    2) An **Instance Description**. 
+    1. An **Instance Name**, without any spaces or special characters. 
+    2. An **Instance Description**. 
 
    ![alt text](images-deploy/create-server-details.png "Create server details")
   
@@ -139,7 +139,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/create-server-submit.png "Create server submit")
 
-3) Watch the status of your newly deployed instance go through the following phases of start up:  **networking**, **spawning**,  **Active**.  When your instance status changes to active, it is ready for use.
+8) Watch the status of your newly deployed instance go through the following phases of start up:  **networking**, **spawning**,  **Active**.  When your instance status changes to active, it is ready for use.
 
    ![alt text](images-deploy/create-server-status.png "Create server status")
 
