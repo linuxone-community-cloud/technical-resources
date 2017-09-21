@@ -89,9 +89,11 @@ This document will take you through the steps to get access to the LinuxONE comm
         1. Click **Create**.
         2. Enter a **Key Name** for this key.
         3. Click **Create a new key pair**.
+        
+   ![alt text](images-deploy/create-key.png "Create SSH key")
+        
         4. A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
 
-   ![alt text](images-deploy/create-key.png "Create SSH key")
    ![alt text](images-deploy/pem-file.png "Save SSH private key")   
 
 ## Deploy your LinuxONE virtual server
@@ -120,7 +122,7 @@ This document will take you through the steps to get access to the LinuxONE comm
     1. An **Instance Name**, without any spaces or special characters. 
     2. An **Instance Description**. 
 
-   ![alt text](images-deploy/create-server-details.png "Create server details")
+   ![alt text](images-deploy/create-server-instance-details.png "Create server details")
   
 4) Select the desired Linux image.
 
