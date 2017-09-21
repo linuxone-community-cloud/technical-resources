@@ -17,14 +17,14 @@ This document will take you through the steps to get access to the LinuxONE comm
   
 2) Click **Start your trial** now.
 
-3) Complete the required fields on the registration page.
+3) Complete the required fields on the registration form.
 
    ![alt text](images-deploy/registration-form.png "Registration form")
 
 4) Provide a mobile phone number that is capable of receiving SMS messages.
-    1) Select a country code.
-    2)	Enter the mobile phone number.  Do not use dashes (-).
-    3)	Click Get Code.
+    1) Select a **country code**.
+    2)	Enter your **mobile phone number**.  *Do not use dashes (-)*.
+    3)	Click **Get Code**.
  
    ![alt text](images-deploy/get-code.png "Get verification code")
 
