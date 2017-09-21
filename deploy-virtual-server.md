@@ -23,8 +23,8 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 4) Provide a mobile phone number that is capable of receiving SMS messages.
     1) Select a **country code**.
-    2)	Enter your **mobile phone number**.  *Do not use dashes (-)*.
-    3)	Click **Get Code**.
+    2) Enter your **mobile phone number**.  *Do not use dashes (-)*.
+    3) Click **Get Code**.
 
    ![alt text](images-deploy/get-code.png "Get verification code")
 
@@ -55,8 +55,8 @@ This document will take you through the steps to get access to the LinuxONE comm
 ## First time setup
 
 1) Back in your browser, from the self service portal login page:
-    1)	Enter your **user ID** and **password** found in the registration successful email.
-    2)	Click **Sign in**.
+    1) Enter your **user ID** and **password** found in the registration successful email.
+    2) Click **Sign in**.
 
    ![alt text](images-deploy/ssp-login.png "Self-Service Portal login page")
 
@@ -105,17 +105,17 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/create-server.png "Create server")
 
-2)	Select a virtual server type.
+2) Select a virtual server type.
 
     1. If this server is for generic purpose use, select **General purpose VM**.
 
    ![alt text](images-deploy/create-server-type-general.png "Create server type General purpose")
 
-    2. If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required. 
+   2. If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required. 
 
    ![alt text](images-deploy/create-server-type-hackathon.png "Create server type Hackathon")
 
-3)	Provide details information for this instance.  Enter:
+3) Provide details information for this instance.  Enter:
 
     1. An **Instance Name**, without any spaces or special characters. 
     2. An **Instance Description**. 
@@ -126,15 +126,15 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/create-server-image.png "Create server image")
   
-5)	Select the desired flavor (configuration).
+5) Select the desired flavor (configuration).
    
    ![alt text](images-deploy/create-server-flavor.png "Create server flavor")
  
-6)	Select the SSH key to use.
+6) Select the SSH key to use.
 
    ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
 
-7)	Verify that all the information is correct and click **Create**.
+7) Verify that all the information is correct and click **Create**.
 
    ![alt text](images-deploy/create-server-submit.png "Create server submit")
 
