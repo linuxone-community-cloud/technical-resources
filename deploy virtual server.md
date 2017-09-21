@@ -13,33 +13,40 @@ This document will take you through the steps to get access to the LinuxONE comm
 ## Step 1. Request access to LinuxONE Community Cloud.
 1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone).
  
-
+   ![alt text](images-deploy/dw-home.png "DeveloperWorks LinuxONE Home")
+  
 2) Click **Start your trial** now.
 
 3) Complete the required fields on the registration page.
 
- 
+   ![alt text](images-deploy/registration-form.png "Registration form")
 
 4) Provide a mobile phone number that is capable of receiving SMS messages.
-   a) Select a country code.
-   b)	Enter the mobile phone number.  Do not use dashes (-).
-   c)	Click Get Code.
+    1) Select a country code.
+    2)	Enter the mobile phone number.  Do not use dashes (-).
+    3)	Click Get Code.
  
+   ![alt text](images-deploy/get-code.png "Get verification code")
 
 5) Go to your mobile phone and check for an SMS message from LinuxONE.  
+
+   ![alt text](images-deploy/phone.png "SMS code ")
  
 Note: You will see a countdown timer.  If you don’t get a code, you can get a new one when the timer expires.
 
 6) Complete your registration.
-   a) Enter the “LinuxONE Community Cloud registration code”.
-   b) Click Request your trial.
+    1) Enter the “LinuxONE Community Cloud registration code”.
+    2) Click Request your trial.
 
+   ![alt text](images-deploy/request-your-trial.png "Submit registration form")    
  
 7) You will see this THANK YOU page indicating your registration is successful.
  
+   ![alt text](images-deploy/registration-successful.png "Registration successful email")
 
 8) You now have access to the LinuxONE Community Cloud self service portal.
-   a) Click Sign In.
+    1) Click Sign In.
+
 9) Check your email for a registration confirmation similar to the following shown. You will need your User ID and Password from this email to sign in to the self service portal.
 
 ## First time setup
