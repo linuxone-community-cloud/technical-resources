@@ -27,13 +27,13 @@ This document will take you through the steps to get access to the LinuxONE comm
     3)	Click **Get Code**.
  
    ![alt text](images-deploy/get-code.png "Get verification code")
+   
+   >Note: You will see a countdown timer.  If you don’t get a code, you can get a new one when the timer expires. Do not repeatedly click 'Get Code'.  Each click will send you a new code, invalidating the previous one.
 
 5) Go to your mobile phone and check for an SMS message from LinuxONE.  
 
    ![alt text](images-deploy/phone.png "SMS code ")
  
-Note: You will see a countdown timer.  If you don’t get a code, you can get a new one when the timer expires.
-
 6) Complete your registration.
     1) Enter the “LinuxONE Community Cloud registration code”.
     2) Click Request your trial.
