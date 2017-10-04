@@ -129,6 +129,8 @@ This document will take you through the steps to get access to the LinuxONE comm
 5) Select the desired flavor (configuration).
    
    ![alt text](images-deploy/create-server-flavor.png "Create server flavor")
+   
+   >Note: If you selected the **Hackathon** server type, you will not see this section. A flavor of **LinuxONE-Medium** wiil be selected by default.
  
 6) Select the SSH key to use.
 
