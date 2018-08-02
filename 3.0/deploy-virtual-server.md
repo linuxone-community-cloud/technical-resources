@@ -1,7 +1,7 @@
 # Virtual Server Deployment Guide
 
 ## Overview
-This document will take you through the steps to get access to the LinuxONE Community Cloud and deploy a virtual server or create a container and start using them in your projects.    
+This document will take you through the steps to get access to the LinuxONE Community Cloud, deploy a virtual server, create a container and start using them in your projects.    
 
 ## Steps
 
