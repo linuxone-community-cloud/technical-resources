@@ -14,21 +14,21 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 ## Step 1. Request access to LinuxONE Community Cloud.
 1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone).
- 
+
    ![alt text](images/RequestAccess.png "DeveloperWorks LinuxONE Home")
-  
+
 2) Click **Start your trial** now.
 
 3) Complete the required fields on the registration form.
 
-   ![alt text](images-deploy/registration-form.png "Registration form")
+   ![alt text](images/FillOutInfo.png "Registration form")
 
 4) Provide a mobile phone number that is capable of receiving SMS messages.
     1) Select a **country code**.
     2) Enter your **mobile phone number**.  *Do not use dashes (-)*.
     3) Click **Get Code**.
 
-   ![alt text](images-deploy/get-code.png "Get verification code")
+   ![alt text](images/get-code.png "Get verification code")
 
    >Note: You will see a countdown timer.  If you don’t get a code within a reasonable amount of time, you can request a new one when the timer expires. Do not repeatedly click 'Get Code'.  Each click will send you a new code, invalidating the previous one.
 
@@ -62,25 +62,25 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    ![alt text](images-deploy/ssp-login.png "Self-Service Portal login page")
 
-2) Now is a good time to change your password to one that is secure and easy for you to remember. 
+2) Now is a good time to change your password to one that is secure and easy for you to remember.
 
     1) Click your **username** from the upper right corner of the Home page.
-    2) Select **Account Settings**. 
+    2) Select **Account Settings**.
     3) Provide the necessary information to change your password.
- 
+
    ![alt text](images-deploy/account-settings.png "Account settings")
-   
+
    ![alt text](images-deploy/change-password.png "Change password")
 
 3) Now is also a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
 
     1) Click your **username** from the upper right corner of the Home page.
     2) Select **Manage SSH Key Pairs**.
- 
-   ![alt text](images-deploy/manage-key.png "Manage SSH keys") 
- 
+
+   ![alt text](images-deploy/manage-key.png "Manage SSH keys")
+
     3) If you already have a public SSH key you wish to use with this cloud:    
-        1. Click **Import**. 
+        1. Click **Import**.
         2. Enter a **Key Name** for this key.
         3. Browse your local file system to select the **public key path**.
         4. Click **Upload your public key**.
@@ -91,7 +91,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
         1. Click **Create**.
         2. Enter a **Key Name** for this key.
         3. Click **Create a new key pair**.   
-        4. A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
+        4. A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file.
 
    ![alt text](images-deploy/create-key.png "Create SSH key")
    ![alt text](images-deploy/pem-file.png "Save SSH private key")   
@@ -113,27 +113,27 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    ![alt text](images-deploy/create-server-type-general.png "Create server type General purpose")
 
-   2. If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required. 
+   2. If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required.
 
    ![alt text](images-deploy/create-server-type-hackathon.png "Create server type Hackathon")
 
 3) Provide details information for this instance.  Enter:
 
-    1. An **Instance Name**, without any spaces or special characters. 
-    2. An **Instance Description**. 
+    1. An **Instance Name**, without any spaces or special characters.
+    2. An **Instance Description**.
 
    ![alt text](images-deploy/create-server-instance-details.png "Create server details")
-  
+
 4) Select the desired Linux image.
 
    ![alt text](images-deploy/create-server-image.png "Create server image")
-  
+
 5) Select the desired flavor (configuration).
-   
+
    ![alt text](images-deploy/create-server-flavor.png "Create server flavor")
-   
+
    >Note: If you selected the **Hackathon** server type, you will not see this section. A flavor of **LinuxONE-Medium** will be selected by default.
- 
+
 6) Select the SSH key to use.
 
    ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
@@ -153,7 +153,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 ### From Mac OS X or Linux using Terminal
 
 1) Open the Terminal application.
-2) Ensure that you have the SSH private key used to deploy the server. 
+2) Ensure that you have the SSH private key used to deploy the server.
 3) If you have not done so already, change the permission bits of this key to 600.
 
    ```sh
@@ -162,35 +162,34 @@ This document will take you through the steps to get access to the LinuxONE Comm
 4) Log in to the linux1 user ID with SSH.
 
    ```sh
-   ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
+   ssh –i /path/to/key/keyname.pem linux1@serveripaddress
    ```
 ### From Windows using PuTTY
 
 1) Set up PuTTY to use the SSH key for your server.  Refer to the [Setting up PUTTY on Windows to use ssh private key](http://developer.ibm.com/linuxone/wp-content/uploads/sites/57/2016/02/PUTTY-Set-up.pdf) tutorial.
 
-2) Log in to the linux1 user ID. 
+2) Log in to the linux1 user ID.
 
 ## Important notes about your server:
 1) You can use ‘sudo’ to execute commands that require root authority.
 
 2) It could take up to 10 minutes to format and mount the /data disk.  Issue the following command to verify the /data disk is available before continuing:
    ```sh
-   df -h 
-   ``` 
+   df -h
+   ```
    ![alt text](images-deploy/df.png "Check /data disk")
 
 3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. For example:
    ```sh
-   iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
+   iptables -I INPUT -p tcp --dport <port#> -j ACCEPT
    ```
    If you want to make your changes permanently, issue this command:
    ```sh
-   iptables-save > /etc/sysconfig/iptables 
-   ``` 
+   iptables-save > /etc/sysconfig/iptables
+   ```
 
 4) You must log in with the user ‘linux1’ with your SSH private key. No modification (use of password authentication, for example) is allowed.
 
 5) The user ‘root’ login is disabled for security reasons. No modification is allowed.
 
 6) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
-
