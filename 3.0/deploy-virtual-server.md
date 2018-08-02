@@ -46,12 +46,12 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    ![alt text](images/thankyou.png "Registration successful message")
 
+9) Check your email for registration confirmation and click activation link.
+
 8) You now have access to the LinuxONE Community Cloud self service portal.
-    1) Click **Sign In**.
+    1) Click **Sign In** and use the email address and password you set up previously.
 
-9) Check your email for a registration confirmation similar to the following shown. You will need your User ID and Password from this email to sign in to the self service portal.
-
-   ![alt text](images-deploy/welcome-email.png "Welcome email")
+   ![alt text](images/activation.png "Welcome email")
 
 
 ## First time setup
