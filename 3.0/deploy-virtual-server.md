@@ -44,7 +44,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 7) You will see this THANK YOU page indicating your registration is successful.
 
-   ![alt text](images-deploy/registration-successful.png "Registration successful message")
+   ![alt text](images/thankyou.png "Registration successful message")
 
 8) You now have access to the LinuxONE Community Cloud self service portal.
     1) Click **Sign In**.
