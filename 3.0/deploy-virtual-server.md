@@ -63,22 +63,12 @@ This document will take you through the steps to get access to the LinuxONE Comm
     ![alt text](images-server/selfservice-portal.png "Self-Service Portal page")
 
 
-2) Now is a good time to change your password to one that is secure and easy for you to remember.
-
-    1) Click your **username** from the upper right corner of the Home page.
-    2) Select **Account Settings**.
-    3) Provide the necessary information to change your password.
-
-   ![alt text](images-deploy/account-settings.png "Account settings")
-
-   ![alt text](images-deploy/change-password.png "Change password")
-
-3) Now is also a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
+2) Now is a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
 
     1) Click your **username** from the upper right corner of the Home page.
     2) Select **Manage SSH Key Pairs**.
 
-   ![alt text](images-deploy/manage-key.png "Manage SSH keys")
+   ![alt text](images-server/manage-ssh-keys.png "Manage SSH keys")
 
     3) If you already have a public SSH key you wish to use with this cloud:    
         1. Click **Import**.
