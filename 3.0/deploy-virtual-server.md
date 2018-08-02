@@ -9,8 +9,9 @@ This document will take you through the steps to get access to the LinuxONE Comm
 2. First time setup
 3. Deploy your LinuxONE virtual server
 4. Log in to your LinuxONE virtual server
-5. Create a LinuxONE container
-6. Log in to your LinxONE container
+5. Activate Container Service
+6. Log in to your IBM Cloud Private
+7. Explore IBM Cloud Private and Create your first container
 
 ## Step 1. Request access to LinuxONE Community Cloud.
 1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone).
