@@ -60,7 +60,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 ## First time setup
 
 1) Once signed you should be at the self service portal.
-    ![alt text](images/selfservice-portal.png "Self-Service Portal login page")
+    ![alt text](images-server/selfservice-portal.png "Self-Service Portal login page")
 
 2) Now is a good time to change your password to one that is secure and easy for you to remember.
 
