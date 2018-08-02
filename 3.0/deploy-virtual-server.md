@@ -21,7 +21,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 3) Complete the required fields on the registration form.
 
-   ![alt text](images/FillOutInfo.png "Registration form")
+   ![alt text](images/form.png "Registration form")
 
 4) Provide a mobile phone number that is capable of receiving SMS messages.
     1) Select a **country code**.
