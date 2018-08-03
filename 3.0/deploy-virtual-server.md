@@ -9,7 +9,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 2. First time setup
 3. Deploy your LinuxONE virtual server
 4. Log in to your LinuxONE virtual server
-5. Add Container Service to your account
+5. (optional) Add Container Service to your account
 
 ## Step 1. Request access to LinuxONE Community Cloud.
 1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone).
@@ -55,7 +55,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
    ![alt text](images/signin.png "Welcome email")
 
 
-## First time setup
+## Step 2 First time setup
 
 1) Once signed you should be at the self service portal.
     ![alt text](images-server/selfservice-portal.png "Self-Service Portal page")
@@ -85,7 +85,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
    ![alt text](images-server/create-key.png "Create SSH key")
    ![alt text](images-server/pem-file.png "Save SSH private key")   
 
-## Deploy your LinuxONE virtual server
+## Step 3 Deploy your LinuxONE virtual server
 
 1) Go to the **Home** page, **Infrastructure** section and **Virtual Servers** service.
     1. Click **Manage Instances**.
@@ -137,7 +137,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    Write down the IP address of your instance. You will need it to log in.
 
-## Log in to your LinuxONE virtual server
+## Step 4 Log in to your LinuxONE virtual server
 
 ### From Mac OS X or Linux using Terminal
 
@@ -182,3 +182,5 @@ This document will take you through the steps to get access to the LinuxONE Comm
 5) The user ‘root’ login is disabled for security reasons. No modification is allowed.
 
 6) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
+
+## Step 5 (optional) Add Container Service to your account
