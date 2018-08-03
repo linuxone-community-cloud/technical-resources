@@ -201,5 +201,3 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 6) The email and password that you previously set up will now work on the Container service provided by IBM Cloud private
     [![alt text](images-server/icp-login.png "IBM Cloud Private")](https://container.cloud.marist.edu:8443/oidc/login.jsp)  
-
-## HAVE FUN!!!    
