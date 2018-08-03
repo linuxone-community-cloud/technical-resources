@@ -78,7 +78,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 5) Click the link in your email to activate your vm service.
 
 6) The email and password that you previously set up will now work to log you into the self service portal to create a virtual machine
-    Click "here"(https://linuxone.cloud.marist.edu/cloud/#/login)
+    Click [here](https://linuxone.cloud.marist.edu/cloud/#/login)
     [![alt text](images-container/signin.png "vm service login")](https://linuxone.cloud.marist.edu/cloud/#/login)  
 
 
