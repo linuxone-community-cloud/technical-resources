@@ -200,4 +200,22 @@ This document will take you through the steps to get access to the LinuxONE Comm
     ![alt text](images-server/container-extention.png "Container service extention")
 
 6) The email and password that you previously set up will now work on the Container service provided by IBM Cloud private
+   Click [here](https://container.cloud.marist.edu:8443/oidc/login.jsp) to get started with containers on LinuxONE.
     [![alt text](images-server/icp-login.png "IBM Cloud Private")](https://container.cloud.marist.edu:8443/oidc/login.jsp)  
+
+## Step 3 Navigating the IBM Cloud Private Container Service Interface
+
+    1) Once you have logged in with username and password you are presented with a Welcome Page.
+       Click [here](https://container.cloud.marist.edu:8443/console/welcome) or bookmark https://container.cloud.marist.edu:8443/console/welcome to get back to the Welcome Page or re-login if you get lost.
+
+    2) Once logged in look at the upper right corner of screen and click the Catalog.  This will take you to predefined Helm Charts for you to configure and deploy.
+       ![alt text](images-container/catalog-click.png "catalog")
+
+    3) There are also links to Documentation and Support
+        ![alt text](images-container/doc-support-click.png "docs and support")
+
+    4) Once you click the catalog you are taken to a catalog of predefined helm charts that can be customized and installed.
+        ![alt text](images-container/catalog-charts.png "catalog of charts")
+
+    5) Once installed, click Deployments in the upper left side of screen for a listing of your deployments.  Also other areas to check out as well.
+        ![alt text](images-container/deployments.png "deployments")
