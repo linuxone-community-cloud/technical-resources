@@ -166,7 +166,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
    ```sh
    df -h
    ```
-   ![alt text](images-deploy/df.png "Check /data disk")
+   ![alt text](images-server/df.png "Check /data disk")
 
 3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. For example:
    ```sh
