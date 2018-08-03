@@ -1,15 +1,14 @@
-# Virtual Server Deployment Guide
+# Container Service Guide
 
 ## Overview
-This document will take you through the steps to get access to the LinuxONE Community Cloud, deploy a virtual server and start using them in your projects.    
+This document will take you through the steps to get access to the LinuxONE Community Cloud and sign into the container service on LinuxONE via IBM Cloud Private and start using containers in your projects.    
 
 ## Steps
 
 1. Request access to LinuxONE Community Cloud
-2. First time setup
-3. Deploy your LinuxONE virtual server
-4. Log in to your LinuxONE virtual server
-5. (optional) Add Container Service to your account
+2. Log in to IBM Cloud Private
+4. Get Started with Containers and Helm Charts
+5. (optional) Add Virtual Server Deployment access to your account
 
 ## Step 1. Request access to LinuxONE Community Cloud.
 1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone/home-l1cc30-test/).
