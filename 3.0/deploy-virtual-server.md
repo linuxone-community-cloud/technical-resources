@@ -94,7 +94,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
     2. Click **Create**.
 
-   ![alt text](images-servers/create-server.png "Create server")
+   ![alt text](images-server/create-server.png "Create server")
 
 2) Select a virtual server type.
 
