@@ -7,8 +7,8 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 1. Request access to LinuxONE Community Cloud
 2. Log in to IBM Cloud Private
-4. Get Started with Containers and Helm Charts
-5. (optional) Add Virtual Server Deployment access to your account
+3. Navigating the IBM Cloud Private Container Service Interface
+4. (optional) Add Virtual Server Deployment access to your account
 
 ## Step 1. Request access to LinuxONE Community Cloud.
 1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone/home-l1cc30-test/).
@@ -48,16 +48,38 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    ![alt text](images-container/container-activation.png "Activation message")
 
+## Step 2 Log in to the container service   
+
 8) You now have access to the LinuxONE Community Cloud container service.
     1) Click this [link](https://container.cloud.marist.edu:8443) and use the email address and password you set up previously.
 
    [![alt text](images-container/icp-login.png "IBM Cloud Private Login")](https://container.cloud.marist.edu:8443)
 
+## Step 3 Navigating the IBM Cloud Private Container Service Interface
 
-## Step 2 First time setup
 
-1) Once signed you should be at the self service portal.
-    ![alt text](images-server/selfservice-portal.png "Self-Service Portal page")
+
+
+
+
+## Step 4 (optional) Add Virtual Server Deployment access to your account
+
+1) Go back to the [Starting Page](https://developer.ibm.com/linuxone/home-l1cc30-test/)
+
+2) Click "Try virtual machines"   
+    ![alt text](images-container/try-virtual-machines.png "Try virtual machines")
+
+3) Enter your email address and you will be immediately recognized as already registered and prompted to add vm service enablement
+    ![alt text](images-container/vm-service-entitlement.png "vm service entitlement")      
+
+4) Look for activation confirmation.
+    ![alt text](images-server/container-activation.png "container activation")
+
+5) You will receive an email stating that your container server will expire in 24 hours.  Click the link in the email to extend it for 30 days.
+    ![alt text](images-server/container-extention.png "Container service extention")
+
+6) The email and password that you previously set up will now work on the Container service provided by IBM Cloud private
+    [![alt text](images-server/icp-login.png "IBM Cloud Private")](https://container.cloud.marist.edu:8443/oidc/login.jsp)  
 
 
 2) Now is a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
