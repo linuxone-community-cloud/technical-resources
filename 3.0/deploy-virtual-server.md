@@ -74,7 +74,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
         3. Browse your local file system to select the **public key path**.
         4. Click **Upload your public key**.
 
-   ![alt text](images-deploy/upload-key.png "Import SSH key")
+   ![alt text](images-server/upload-key.png "Import SSH key")
 
     4) If you want to create a new SSH key pair:     
         1. Click **Create**.
@@ -82,8 +82,8 @@ This document will take you through the steps to get access to the LinuxONE Comm
         3. Click **Create a new key pair**.   
         4. A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file.
 
-   ![alt text](images-deploy/create-key.png "Create SSH key")
-   ![alt text](images-deploy/pem-file.png "Save SSH private key")   
+   ![alt text](images-server/create-key.png "Create SSH key")
+   ![alt text](images-server/pem-file.png "Save SSH private key")   
 
 ## Deploy your LinuxONE virtual server
 
