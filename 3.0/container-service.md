@@ -69,7 +69,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 4) Once you click the catalog you are taken to a catalog of predefined helm charts that can be customized and installed.
     ![alt text](images-container/catalog-charts.png "catalog of charts")
 
-5) Once installed, click Deployments in the upper left side of screen for a listing of your deployments.  There are also many other areas to check out as well.
+5) Once installed, click Deployments in the upper left side of screen for a listing of your deployments.  Also other areas to check out as well.
     ![alt text](images-container/deployments.png "deployments")
 
 ## (optional) Add Virtual Server Deployment access to your account
