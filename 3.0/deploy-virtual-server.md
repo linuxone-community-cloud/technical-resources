@@ -184,3 +184,5 @@ This document will take you through the steps to get access to the LinuxONE Comm
 6) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
 
 ## Step 5 (optional) Add Container Service to your account
+
+   Go back to the [homepage](https://linuxone.cloud.marist.edu/cloud/#/index)
