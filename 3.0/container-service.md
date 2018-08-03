@@ -15,7 +15,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    ![alt text](images/RequestAccess.png "DeveloperWorks LinuxONE Home")
 
-2) Click **Start your trial** now.
+2) Click **Try containers** now.
 
 3) Complete the required fields on the registration form.
 
@@ -42,13 +42,13 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 7) You will see this THANK YOU page indicating your registration is successful.
 
-   ![alt text](images/thankyou.png "Registration successful message")
+   ![alt text](images-container/container-thank-you.png "Registration successful message")
 
 9) Check your email for registration confirmation and click activation link.
 
-   ![alt text](images/activation.png "Activation message")
+   ![alt text](images-container/container-activation.png "Activation message")
 
-8) You now have access to the LinuxONE Community Cloud self service portal.
+8) You now have access to the LinuxONE Community Cloud container service.
     1) Click **Sign In** and use the email address and password you set up previously.
 
    ![alt text](images/signin.png "Welcome email")
