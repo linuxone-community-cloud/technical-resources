@@ -111,11 +111,11 @@ This document will take you through the steps to get access to the LinuxONE Comm
     1. An **Instance Name**, without any spaces or special characters.
     2. An **Instance Description**.
 
-   ![alt text](images-servers/create-server-instance-details.png "Create server details")
+   ![alt text](images-server/create-server-instance-details.png "Create server details")
 
 4) Select the desired Linux image.
 
-   ![alt text](images-servers/create-server-image.png "Create server image")
+   ![alt text](images-server/create-server-image.png "Create server image")
 
 5) Select the desired flavor (configuration).
 
