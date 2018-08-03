@@ -81,8 +81,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
     Click [here](https://linuxone.cloud.marist.edu/cloud/#/login)
     [![alt text](images-container/signin.png "vm service login")](https://linuxone.cloud.marist.edu/cloud/#/login)  
 
-
-2) Now is a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
+7) Now is a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
 
     1) Click your **username** from the upper right corner of the Home page.
     2) Select **Manage SSH Key Pairs**.
@@ -203,22 +202,3 @@ This document will take you through the steps to get access to the LinuxONE Comm
 5) The user ‘root’ login is disabled for security reasons. No modification is allowed.
 
 6) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
-
-## Step 5 (optional) Add Container Service to your account
-
-1) Go back to the [Starting Page](https://developer.ibm.com/linuxone/home-l1cc30-test/)
-
-2) Click "Try Containers"   
-    ![alt text](images-server/try-containers.png "Try Containers")
-
-3) Enter your email address and you will be immediately recognized as already registered and prompted to add container Service
-    ![alt text](images-server/container-entitlement.png "Containers entitlement")      
-
-4) Look for activation confirmation.
-    ![alt text](images-server/container-activation.png "container activation")
-
-5) You will receive an email stating that your container server will expire in 24 hours.  Click the link in the email to extend it for 30 days.
-    ![alt text](images-server/container-extention.png "Container service extention")
-
-6) The email and password that you previously set up will now work on the Container service provided by IBM Cloud private
-    [![alt text](images-server/icp-login.png "IBM Cloud Private")](https://container.cloud.marist.edu:8443/oidc/login.jsp)  
