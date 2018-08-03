@@ -75,11 +75,11 @@ This document will take you through the steps to get access to the LinuxONE Comm
 4) Check your email for vm service activation.
     ![alt text](images-container/vm-service-enablement.png "vm service activation")
 
-5) You will receive an email stating that your container server will expire in 24 hours.  Click the link in the email to extend it for 30 days.
-    ![alt text](images-server/container-extention.png "Container service extention")
+5) Click the link in your email to activate your vm service.
 
-6) The email and password that you previously set up will now work on the Container service provided by IBM Cloud private
-    [![alt text](images-server/icp-login.png "IBM Cloud Private")](https://container.cloud.marist.edu:8443/oidc/login.jsp)  
+6) The email and password that you previously set up will now work to log you into the self service portal to create a virtual machine
+    Click "here"(https://linuxone.cloud.marist.edu/cloud/#/login)
+    [![alt text](images-container/signin.png "vm service login")](https://linuxone.cloud.marist.edu/cloud/#/login)  
 
 
 2) Now is a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
