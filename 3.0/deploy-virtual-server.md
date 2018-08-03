@@ -198,3 +198,8 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 5) You will receive an email stating that your container server will expire in 24 hours.  Click the link in the email to extend it for 30 days.
     ![alt text](images-server/container-extention.png "Container service extention")
+
+6) The email and password that you previously set up will now work on the Container service provided by IBM Cloud private
+    ![alt text](images-server/ipc-login.png "IBM Cloud Private")  
+
+## HAVE FUN!!!    
