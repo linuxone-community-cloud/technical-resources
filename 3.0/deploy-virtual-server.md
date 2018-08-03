@@ -12,7 +12,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 5. (optional) Add Container Service to your account
 
 ## Step 1. Request access to LinuxONE Community Cloud.
-1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone).
+1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone/home-l1cc30-test/).
 
    ![alt text](images/RequestAccess.png "DeveloperWorks LinuxONE Home")
 
@@ -185,4 +185,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 ## Step 5 (optional) Add Container Service to your account
 
-   Go back to the [homepage](https://linuxone.cloud.marist.edu/cloud/#/index)
+1) Go back to the [Starting Page](https://developer.ibm.com/linuxone/home-l1cc30-test/)
+
+2) Click "Try Containers"   
+    ![alt text](images-server/try-containers.png "Try Containers")
