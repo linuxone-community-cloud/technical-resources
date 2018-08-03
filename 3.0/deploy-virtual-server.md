@@ -90,32 +90,32 @@ This document will take you through the steps to get access to the LinuxONE Comm
 1) Go to the **Home** page, **Infrastructure** section and **Virtual Servers** service.
     1. Click **Manage Instances**.
 
-   ![alt text](images-deploy/manage-instances.png "Manage instances")
+   ![alt text](images-server/manage-instances.png "Manage instances")
 
     2. Click **Create**.
 
-   ![alt text](images-deploy/create-server.png "Create server")
+   ![alt text](images-servers/create-server.png "Create server")
 
 2) Select a virtual server type.
 
     1. If this server is for generic purpose use, select **General purpose VM**.
 
-   ![alt text](images-deploy/create-server-type-general.png "Create server type General purpose")
+   ![alt text](images-server/create-server-type-general.png "Create server type General purpose")
 
    2. If this server is for a Hackathon event, select **Hackathon**.  A valid event code is required.
 
-   ![alt text](images-deploy/create-server-type-hackathon.png "Create server type Hackathon")
+   ![alt text](images-server/create-server-type-hackathon.png "Create server type Hackathon")
 
 3) Provide details information for this instance.  Enter:
 
     1. An **Instance Name**, without any spaces or special characters.
     2. An **Instance Description**.
 
-   ![alt text](images-deploy/create-server-instance-details.png "Create server details")
+   ![alt text](images-servers/create-server-instance-details.png "Create server details")
 
 4) Select the desired Linux image.
 
-   ![alt text](images-deploy/create-server-image.png "Create server image")
+   ![alt text](images-servers/create-server-image.png "Create server image")
 
 5) Select the desired flavor (configuration).
 
