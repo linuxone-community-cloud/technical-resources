@@ -189,3 +189,6 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 2) Click "Try Containers"   
     ![alt text](images-server/try-containers.png "Try Containers")
+
+3) Enter your email address and you will be immediately recognized as already registered and prompted to add container Service
+    ![alt text](images-server/container-entitlement.png "Try Containers")         
