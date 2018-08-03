@@ -72,8 +72,8 @@ This document will take you through the steps to get access to the LinuxONE Comm
 3) Enter your email address and you will be immediately recognized as already registered and prompted to add vm service enablement
     ![alt text](images-container/vm-service-entitlement.png "vm service entitlement")      
 
-4) Look for activation confirmation.
-    ![alt text](images-server/container-activation.png "container activation")
+4) Check your email for vm service activation.
+    ![alt text](images-container/vm-service-enablement.png "vm service activation")
 
 5) You will receive an email stating that your container server will expire in 24 hours.  Click the link in the email to extend it for 30 days.
     ![alt text](images-server/container-extention.png "Container service extention")
