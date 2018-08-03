@@ -119,21 +119,21 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
 5) Select the desired flavor (configuration).
 
-   ![alt text](images-deploy/create-server-flavor.png "Create server flavor")
+   ![alt text](images-server/create-server-flavor.png "Create server flavor")
 
    >Note: If you selected the **Hackathon** server type, you will not see this section. A flavor of **LinuxONE-Medium** will be selected by default.
 
 6) Select the SSH key to use.
 
-   ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
+   ![alt text](images-server/create-server-select-key.png "Create server SSH key")
 
 7) Verify that all the information is correct and click **Create**.
 
-   ![alt text](images-deploy/create-server-submit.png "Create server submit")
+   ![alt text](images-server/create-server-submit.png "Create server submit")
 
 8) Watch the status of your newly deployed instance go through the following phases of start up:  **networking**, **spawning**,  **Active**.  When your instance status changes to active, it is ready for use.
 
-   ![alt text](images-deploy/create-server-status.png "Create server status")
+   ![alt text](images-server/create-server-status.png "Create server status")
 
    Write down the IP address of your instance. You will need it to log in.
 
