@@ -60,10 +60,19 @@ This document will take you through the steps to get access to the LinuxONE Comm
 1) Once you have logged in with username and password you are presented with a Welcome Page.
    Click [here](https://container.cloud.marist.edu:8443/console/welcome) or bookmark https://container.cloud.marist.edu:8443/console/welcome to get back to the Welcome Page or re-login if you get lost.
 
+2) Once logged in look at the upper right corner of screen and click the Catalog.  This will take you to predefined Helm Charts for you to configure and deploy.
+   ![alt text](images-container/catalog-click.png "catalog")
 
+3) There are also links to Documentation and Support
+    ![alt text](images-container/doc-support-click.png "docs and support")
 
+4) Once you click the catalog you are taken to a catalog of predefined helm charts that can be customized and installed.
+    ![alt text](images-container/catalog-charts.png "catalog of charts")
 
-## Step 4 (optional) Add Virtual Server Deployment access to your account
+5) Once installed, click Deployments in the upper left side of screen for a listing of your deployments.  There are also many other areas to check out as well.
+    ![alt text](images-container/deployments.png "deployments")
+
+## (optional) Add Virtual Server Deployment access to your account
 
 1) Go back to the [Starting Page](https://developer.ibm.com/linuxone/home-l1cc30-test/)
 
@@ -106,7 +115,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
    ![alt text](images-server/create-key.png "Create SSH key")
    ![alt text](images-server/pem-file.png "Save SSH private key")   
 
-## Step 3 Deploy your LinuxONE virtual server
+## Deploy your LinuxONE virtual server
 
 1) Go to the **Home** page, **Infrastructure** section and **Virtual Servers** service.
     1. Click **Manage Instances**.
@@ -158,7 +167,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    Write down the IP address of your instance. You will need it to log in.
 
-## Step 4 Log in to your LinuxONE virtual server
+## Log in to your LinuxONE virtual server
 
 ### From Mac OS X or Linux using Terminal
 
