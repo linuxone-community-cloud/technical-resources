@@ -16,7 +16,7 @@ This document will take you through the steps to get access to the LinuxONE Comm
 
    ![alt text](images/RequestAccess.png "DeveloperWorks LinuxONE Home")
 
-2) Click **Start your trial** now.
+2) Click **Try virtual machines** now.
 
 3) Complete the required fields on the registration form.
 
