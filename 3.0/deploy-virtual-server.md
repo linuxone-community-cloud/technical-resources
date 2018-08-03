@@ -191,4 +191,10 @@ This document will take you through the steps to get access to the LinuxONE Comm
     ![alt text](images-server/try-containers.png "Try Containers")
 
 3) Enter your email address and you will be immediately recognized as already registered and prompted to add container Service
-    ![alt text](images-server/container-entitlement.png "Try Containers")         
+    ![alt text](images-server/container-entitlement.png "Containers entitlement")      
+
+4) Look for activation confirmation.
+    ![alt text](images-server/container-activation.png "container activation")
+
+5) You will receive an email stating that your container server will expire in 24 hours.  Click the link in the email to extend it for 30 days.
+    ![alt text](images-server/container-extention.png "Container service extention")
