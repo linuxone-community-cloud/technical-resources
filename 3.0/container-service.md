@@ -49,9 +49,9 @@ This document will take you through the steps to get access to the LinuxONE Comm
    ![alt text](images-container/container-activation.png "Activation message")
 
 8) You now have access to the LinuxONE Community Cloud container service.
-    1) Click **Sign In** and use the email address and password you set up previously.
+    1) Click this [link](https://container.cloud.marist.edu:8443) and use the email address and password you set up previously.
 
-   ![alt text](images/signin.png "Welcome email")
+   ![alt text](images-container/ipc-login.png "IBM Cloud Private Login")
 
 
 ## Step 2 First time setup
