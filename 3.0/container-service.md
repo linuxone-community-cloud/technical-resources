@@ -3,11 +3,11 @@
 ## Overview
 This document will take you through the steps to get access to the LinuxONE Community Cloud and sign into the container service on LinuxONE via IBM Cloud Private and start using containers in your projects.  
 
-## **Important notice
+## <font color=FF0000>**Important notice</font>
 Due to a limition in the current release, you are not authorized to delete your deployed container resources. Please reach out to linux1@us.ibm.com to request the deletion via filling below form. 
-Namespace Name:
-Resource Type:
-Resoruce Name: 
+* Namespace Name:
+* Resource Type:
+* Resoruce Name: 
 
 ## Steps
 
