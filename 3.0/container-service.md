@@ -75,8 +75,9 @@ Due to a limitation in the current release, you are not authorized to delete you
 4) Once you click the catalog you are taken to a catalog of predefined helm charts that can be customized and installed.
     ![alt text](images-container/catalog-charts.png "catalog of charts")
 
-5) Once installed, click Deployments in the upper left side of screen for a listing of your deployments.  Also other areas to check out as well.
-    ![alt text](images-container/deployments.png "deployments")
+5) Once installed, click "Workloads" and then "Helm Releases" in the upper left side of screen for a listing of your deployed helm charts.  Also there are many other areas to check out as well.
+    ![alt text](images-container/helm-message.png "Helm Chart Message")
+    ![alt text](images-container/DeployedHelmCharts.png "DeployedHelmCharts")
 
 ## (optional) Add Virtual Server Deployment access to your account
 
