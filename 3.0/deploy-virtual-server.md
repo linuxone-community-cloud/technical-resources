@@ -215,5 +215,6 @@ This document will take you through the steps to get access to the LinuxONE Comm
 11) Once you click the catalog you are taken to a catalog of predefined helm charts that can be customized and installed.
     ![alt text](images-container/catalog-charts.png "catalog of charts")
 
-12) Once installed, click Deployments in the upper left side of screen for a listing of your deployments.  Also other areas to check out as well.
-    ![alt text](images-container/deployments.png "deployments")
+12) Once installed, click "Workloads" and then "Helm Releases" in the upper left side of screen for a listing of your deployed helm charts.  Also there are many other areas to check out as well.
+    ![alt text](images-container/helm-message.png "Helm Chart Message")
+    ![alt text](images-container/DeployedHelmCharts.png "DeployedHelmCharts")
