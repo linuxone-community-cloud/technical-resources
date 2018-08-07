@@ -1,7 +1,13 @@
 # Container Service Guide
 
 ## Overview
-This document will take you through the steps to get access to the LinuxONE Community Cloud and sign into the container service on LinuxONE via IBM Cloud Private and start using containers in your projects.    
+This document will take you through the steps to get access to the LinuxONE Community Cloud and sign into the container service on LinuxONE via IBM Cloud Private and start using containers in your projects.  
+
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)Important notice
+Due to a limitation in the current release, you are not authorized to delete your deployed container resources. This will be fixed in the next release. Please reach out to linux1@us.ibm.com to request the deletion via filling below form. 
+* Namespace Name:
+* Resource Type:
+* Resoruce Name: 
 
 ## Steps
 
@@ -69,8 +75,9 @@ This document will take you through the steps to get access to the LinuxONE Comm
 4) Once you click the catalog you are taken to a catalog of predefined helm charts that can be customized and installed.
     ![alt text](images-container/catalog-charts.png "catalog of charts")
 
-5) Once installed, click Deployments in the upper left side of screen for a listing of your deployments.  Also other areas to check out as well.
-    ![alt text](images-container/deployments.png "deployments")
+5) Once installed, click "Workloads" and then "Helm Releases" in the upper left side of screen for a listing of your deployed helm charts.  Also there are many other areas to check out as well.
+    ![alt text](images-container/helm-message.png "Helm Chart Message")
+    ![alt text](images-container/DeployedHelmCharts.png "DeployedHelmCharts")
 
 ## (optional) Add Virtual Server Deployment access to your account
 
