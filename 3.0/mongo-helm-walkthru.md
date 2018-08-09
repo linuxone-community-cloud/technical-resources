@@ -15,12 +15,10 @@ This document will take you through using the MongoDB Helm Chart preloaded in th
 
 From a browser, go to the [IBM Cloud Private website](https://container.cloud.marist.edu:8443/oidc/login.jsp) and log in with your credentials you previously set up.
 
-    ![alt text](images-mongodb/login.png "login")
+    ![alt text](images-mongodb/catalog.png "catalog")
 
 ## Step 2. Choose the MondoDB helm chart
 
 1.  Click the Catalog in the upper right side of screen
 
     ![alt text](images-mongodb/catalog.png "catalog")
-
- 
