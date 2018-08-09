@@ -14,7 +14,6 @@ This document will take you through using the MongoDB Helm Chart preloaded in th
 ## Step 1. Login to IBM Cloud Private
 
 From a browser, go to the [IBM Cloud Private website](https://container.cloud.marist.edu:8443/oidc/login.jsp) and log in with your credentials you previously set up.
-
     ![alt text](images-mongodb/login.png "login")
 
 
