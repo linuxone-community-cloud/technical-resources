@@ -22,3 +22,8 @@ From a browser, go to the [IBM Cloud Private website](https://container.cloud.ma
 1.  Click the Catalog in the upper right side of screen
 
     ![alt text](images-mongodb/catalog.png "catalog")
+
+2.  Select the "ibm-mongodb-dev" helm charts
+
+    ![alt text](images-mongodb/select-mongodb.png "select mongodb")
+    
