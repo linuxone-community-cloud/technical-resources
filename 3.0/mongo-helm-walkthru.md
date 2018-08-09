@@ -22,3 +22,4 @@ From a browser, go to [IBM Cloud Private website](https://container.cloud.marist
 1.  Click the Catalog in the upper right side of screen
 
     ![alt text](images-mongodb/catalog.png "catalog")
+ 
