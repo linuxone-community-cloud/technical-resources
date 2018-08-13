@@ -26,4 +26,5 @@ From a browser, go to the [IBM Cloud Private website](https://container.cloud.ma
 2.  Select the "ibm-mongodb-dev" helm charts
 
     ![alt text](images-mongodb/select-mongodb.png "select mongodb")
-    
+
+## Step 3. Customize the configuration
