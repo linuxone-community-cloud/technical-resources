@@ -49,7 +49,17 @@ From a browser, go to the [IBM Cloud Private website](https://container.cloud.ma
 
 3. Check the status of your MondoDB deployment/install by clicking "Workloads" and then "Deployments" in the upper left hand corner of screen.
 
-    
+
     ![alt text](images-mongodb/deployments.png "deployments")
+
     ![alt text](images-mongodb/deployments-2.png "deployments")
+
+4.  Click the individual deployments to get more details.
+
     ![alt text](images-mongodb/deployments-3.png "deployments")
+
+5.  You can also click "Workloads" and "Helm Releases" to get more details about the Helm Release
+
+    ![alt text](images-mongodb/helm-releases.png "helm release")
+    ![alt text](images-mongodb/helm-releases-2.png "helm release")
+    ![alt text](images-mongodb/helm-releases-3.png "helm release")
