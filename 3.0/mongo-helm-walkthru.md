@@ -30,11 +30,19 @@ From a browser, go to the [IBM Cloud Private website](https://container.cloud.ma
 
 ## Step 3. Customize the configuration
 
-1. Customize the MondoDB deployment, paying attention to the "Release name", "Target namespace", agreeing to the license agreements, "MongoDB username" and "Password for MongoDB admin user".  You can take defaults for everything else.
+    Customize the MondoDB deployment, paying attention to the "Release name", "Target namespace", agreeing to the license agreements, "MongoDB username" and "Password for MongoDB admin user".  You can take defaults for everything else.
 
     ![alt text](images-mongodb/config-mongo-1.png "select config-mongo")
 
     ![alt text](images-mongodb/config-mongo-2.png "select config-mongo")
 
     ![alt text](images-mongodb/config-mongo-3.png "select config-mongo")
+
+
+## Step 4.  Deploy/Install the MongoDB Database
+
+Click "Install" in lower right corner of screen
+
+    ![alt text](images-mongodb/mongo-install.png "install")
+
     
