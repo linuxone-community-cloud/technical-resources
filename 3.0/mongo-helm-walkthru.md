@@ -44,5 +44,4 @@ From a browser, go to the [IBM Cloud Private website](https://container.cloud.ma
 Click "Install" in lower right corner of screen
 
     ![alt text](images-mongodb/mongo-install.png "install")
-
     
