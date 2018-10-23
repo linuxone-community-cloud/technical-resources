@@ -1,7 +1,7 @@
-# Container Service Guide
+# Develop a Cloud Native Application on ICP on LinuxONE
 
 ## Overview
-This document will take you through the steps to get access to the LinuxONE Community Cloud and sign into the container service on LinuxONE via IBM Cloud Private and start using containers in your projects.  
+This document will take you through the steps to preview the ICP trial on the LinuxONE Community Cloud that enables the deployment of cloud native applications and more.  
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)Important notice
 Due to a limitation in the current release, you are not authorized to delete your deployed container resources. This will be fixed in the next release. Please reach out to linux1@us.ibm.com to request the deletion via filling below form.
@@ -11,10 +11,14 @@ Due to a limitation in the current release, you are not authorized to delete you
 
 ## Steps
 
-1. Request access to LinuxONE Community Cloud
+1. Request access to to IBM Cloud Private on the LinuxONE Community Cloud
 2. Log in to IBM Cloud Private
-3. Navigating the IBM Cloud Private Container Service Interface
-4. (optional) Add Virtual Server Deployment access to your account
+3. Create a MongoDB Container Application using Helm Charts
+4. Test your MongDB Container Application
+5. Create an Open Liberty Container Application using Helm charts
+6. Test your Open Liberty Container application
+7. Create a Banking Microservice Container Application called MPLBank using Helm charts
+8. Use your Banking Microservice Container Application to access DB2 and CICs on zOS
 
 ## Step 1. Request access to LinuxONE Community Cloud.
 1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone/home-l1cc30-test/).
