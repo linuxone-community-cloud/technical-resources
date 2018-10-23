@@ -9,7 +9,6 @@ This document will take you through using the MongoDB Helm Chart preloaded in th
 2. Choose the MongoDB helm chart
 3. Customize the configuration
 4. Deploy/Install the MongoDB Database
-5. ????????
 
 ## Step 1. Login to IBM Cloud Private
 
