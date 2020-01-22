@@ -11,7 +11,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 4. Log in to your LinuxONE virtual server
 
 ## Step 1. Request access to LinuxONE Community Cloud.
-1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone).
+1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone). (Note: some have reported issues with Firefox browsers on Windows.)
 
    ![alt text](images-deploy/dw-home.png "DeveloperWorks LinuxONE Home")
 
