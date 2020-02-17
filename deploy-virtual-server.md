@@ -19,7 +19,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 3) Complete the required fields on the registration form.
 
-   ![alt text](images-deploy/registration-form.png"Registration form")
+   ![alt text](images-deploy/registration-form.png "Registration form")
 
 
 
