@@ -19,7 +19,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 3) Complete the required fields on the registration form.
 
-   ![alt text](images-deploy/registration-form.png"Registration form")
+   ![alt text](images-deploy/registration-form.png "Registration form")
 
 
 
@@ -123,7 +123,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 3) If you have not done so already, change the permission bits of this key to 600.
 
    ```
-   chmod 600 /path/to/key/keyname.pem  
+# chmod 600 /path/to/key/keyname.pem  
    ```
 4) Use SSH to access the Linux guest.
 
@@ -134,7 +134,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 * Serveripaddress: This was written down from the *Manage Instances* page of the LinuxONE Community Cloud.
 
    ```
-   ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
+   # ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
    ```
 ### From Windows using PuTTY
 
@@ -147,22 +147,42 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 2) It could take up to 10 minutes to format and mount the /data disk.  Issue the following command to verify the /data disk is available before continuing:
    ```sh
-   df -h 
+# df -h 
    ```
    ![alt text](images-deploy/df.png "Check /data disk")
 
-3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. For example:
+3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. 
+
+For SLES:
+
    ```sh
-   iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
+# sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
    ```
    If you want to make your changes permanently, issue this command:
    ```sh
-   iptables-save > /etc/sysconfig/iptables 
+# sudo bash -c "iptables-save > /etc/linuxone/iptables.save" 
    ```
 
-4) You must log in with the user ‘linux1’ with your SSH private key. No modification (use of password authentication, for example) is allowed.
+For RHEL:
 
-5) The user ‘root’ login is disabled for security reasons. No modification is allowed.
+```
+# sudo firewall-cmd --zone=public --add-port=<port #>/tcp --permanent
+# sudo firewall-cmd --reload
+```
 
-6) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
+
+
+4) To check that the firewall is enabled on both SLES or RHEL:
+
+```
+# sudo iptables-save | grep <port #>
+```
+
+
+
+5) You must log in with the user ‘linux1’ with your SSH private key. No modification (use of password authentication, for example) is allowed.
+
+6) The user ‘root’ login is disabled for security reasons. No modification is allowed.
+
+7) There is no backup for your virtual server.  It is the end user’s responsibility to back up any critical data.
 
