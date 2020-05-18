@@ -154,14 +154,13 @@ This document will take you through the steps to get access to the LinuxONE comm
 3) Firewall is enabled. Only the SSH port is open.  Modify the firewall rules with iptables if you need other ports opened. 
 
 For SLES:
-
-   ```sh
+```
 # sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
-   ```
+```
    If you want to make your changes permanently, issue this command:
-   ```sh
+```
 # sudo bash -c "iptables-save > /etc/linuxone/iptables.save" 
-   ```
+```
 
 For RHEL:
 
