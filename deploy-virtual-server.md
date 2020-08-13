@@ -90,7 +90,11 @@ This document will take you through the steps to get access to the LinuxONE comm
 4) Select the desired Linux image.
 
    ![alt text](images-deploy/create-server-image.png "Create server image")
+   
+4) Select the Flavor (There is only one at this time).
 
+   ![alt text](images-deploy/select-flavor.png "Select Flavor")
+   
 5) Select the SSH key to use.
 
    ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
