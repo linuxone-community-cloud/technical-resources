@@ -86,9 +86,6 @@ This document will take you through the steps to get access to the LinuxONE comm
 3) Provide details information for this instance.
   
 * An **Instance Name**, without any spaces or special characters. 
-* An **Instance Description**. 
-
-   ![alt text](images-deploy/create-server-instance-details.png "Create server details")
 
 4) Select the desired Linux image.
 
