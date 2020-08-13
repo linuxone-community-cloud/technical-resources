@@ -17,7 +17,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 2) Click **Try Virtual Machines on the LinuxONE Community Cloud**.
 
-3) Complete the required fields on the registration form. (note, if you were given en event code please enter it if not leave it blank)
+3) Complete the required fields on the registration form. **Note:** If you were given en event code please enter it, if not leave it blank)
 
    ![alt text](images-deploy/registration-form.png "Registration form")
 
