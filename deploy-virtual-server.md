@@ -1,7 +1,7 @@
 # Virtual Server Deployment Guide
 
 ## Overview
-This document will take you through the steps to get access to the LinuxONE community cloud, deploy a virtual virtual and start using it in your project.    
+This document will take you through the steps to get access to the LinuxONE community cloud, deploy a virtual virtual and start using it in your project or in one of the Fast Start Guides.    
 
 ## Steps
 
@@ -11,7 +11,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 4. Log in to your LinuxONE virtual server
 
 ## Step 1. Request access to LinuxONE Community Cloud.
-1) In a browser, go to the [LinuxONE Community Cloud website](https://developer.ibm.com/linuxone).
+1) In a browser, go to the [LinuxONE Community Cloud website](https://ibm.biz/linuxonecc).
 
    ![alt text](images-deploy/dw-home.png "DeveloperWorks LinuxONE Home")
 
