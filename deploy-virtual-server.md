@@ -45,8 +45,9 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 
 
-2) Now is also a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
-* Click your **username** from the upper right corner of the Home page.
+2) Now is also a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key. You can generate one now or wait until you deploy your first instance.
+* Click **Virtual Servers** in the upper left corner of the page.
+* Next click your **username** from the upper right corner of the Home page.
 
 * Select **Manage SSH Key Pairs**.
 ![alt text](images-deploy/manage-key.png "Manage SSH keys")
