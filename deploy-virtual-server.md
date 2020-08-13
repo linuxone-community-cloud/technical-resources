@@ -15,7 +15,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/dev-home.png "Developer L1CC Home")
 
-2) Click **Try a Virtual Machines on the LinuxONE Community Cloud** now.
+2) Click **Try Virtual Machines on the LinuxONE Community Cloud**.
 
 3) Complete the required fields on the registration form.
 
@@ -36,7 +36,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 ## First time setup
 
-1) After activating your account, log in.
+1) After activating your account, log in at https://linuxone.cloud.marist.edu/#/login
 
 * Enter your **user ID** and the **password** created during registration.
 * Click **Sign in**.
