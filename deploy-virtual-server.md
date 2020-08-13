@@ -83,8 +83,8 @@ This document will take you through the steps to get access to the LinuxONE comm
 
 2) Your Virtual Server type will automatically be "General purpose VM".
 
-3) Provide details information for this instance.  Enter:
-
+3) Provide details information for this instance.
+  
 * An **Instance Name**, without any spaces or special characters. 
 * An **Instance Description**. 
 
