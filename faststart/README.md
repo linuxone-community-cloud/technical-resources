@@ -1,4 +1,4 @@
-Fast Start Guides fro the LinuxONE Community Cloud
+Fast Start Guides for the LinuxONE Community Cloud
 ==================================================
 
 Get started today with Fast Start Guides and accelerate your knowledge of
