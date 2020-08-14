@@ -12,9 +12,12 @@ commands that are fundamental to using linux.
 
 The ssh linux shell prompt in the lab instruction appears as follows:
 
-**[linux1]\$** Actual ssh Linux shell prompt will look slightly different.
+**[linux1]\$** 
+
+Actual ssh Linux shell prompt will look slightly different.
 
 Linux cat command displays the content of a unix file to the terminal.  
+
 **[linux1]\$ cat /etc/\*-release**
 
 /etc/\*-release contains information about
@@ -75,7 +78,7 @@ While it is possible to display the entire sysinfo.txt, the following commands
 will display a few lines at the beginning of the file (head), then display a few
 lines at the end of the file (tail).
 
-**[linux1]\$ head sysinfo.txt **
+**[linux1]\$ head sysinfo.txt**
 
 **[linux1]\$ tail sysinfo.txt**
 
@@ -182,7 +185,7 @@ Output of time command may not be what was expected. So, what good is the time
 command. Time in front of any other command, shell script, or program execution
 will output system time consumed to complete the command, shell script, or
 program. 
-**[linux1]\$ time cat /proc/sysinfo **
+**[linux1]\$ time cat /proc/sysinfo**
 
 **[linux1]\$ man time**    ..To understand the purpose of the time command   
 
@@ -310,19 +313,19 @@ distributions.
 
 Examples: Red Hat
 
-**[linux1]\$ service iptables status **
+**[linux1]\$ service iptables status**
 
-**[linux1]\$ service iptables stop **
+**[linux1]\$ service iptables stop**
 
-**[linux1]\$ service iptables status **
+**[linux1]\$ service iptables status**
 
-**[linux1]\$ service iptables start **
+**[linux1]\$ service iptables start**
 
 Want to see all the linux kernel parameters ?
 
-**[linux1]\$ sudo su **
+**[linux1]\$ sudo su**
 
-**[linux1]\$ sysctl -a **
+**[linux1]\$ sysctl -a**
 
 **[linux1]\$ exit**
 
