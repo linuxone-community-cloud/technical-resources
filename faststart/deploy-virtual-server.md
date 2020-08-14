@@ -176,7 +176,7 @@ Log in to your LinuxONE virtual server
 ### From Windows using PuTTY
 
 1.  Set up PuTTY to use the SSH key for your server. Refer to the [Setting up
-    PUTTY on Windows to use ssh private key](PUTTY Set up.pdf) tutorial.
+    PUTTY on Windows to use ssh private key](PUTTY_Set_up.pdf) tutorial.
 
 2.  Log in to the linux1 user ID.
 
