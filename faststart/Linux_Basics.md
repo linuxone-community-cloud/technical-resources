@@ -15,16 +15,19 @@ The ssh linux shell prompt in the lab instruction appears as follows:
 **[linux1]\$** Actual ssh Linux shell prompt will look slightly different.
 
 Linux cat command displays the content of a unix file to the terminal.  
-**[linux1]\$ cat /etc/\*-release**  
+**[linux1]\$ cat /etc/\*-release**
+
 /etc/\*-release contains information about
 the installed Linux distribution. This information is very significant and will
 be explained later in these lab instructions.
 
-**[linux1]\$ cat /proc/version** 
+**[linux1]\$ cat /proc/version**
+
 /proc/version contains additional information
 about the Linux kernel and GCC compiler associated with the Linux distribution
 
 **[linux1]\$ cat /proc/sysinfo** 
+
 /proc/sysinfo contains information about the
 hardware and virtualization hypervisor hosting this Linux.
 
@@ -39,7 +42,8 @@ page and enter will display only the next line of the data.
 
 Alternate method makes use of pipe which is the vertical bar. A pipe ( \| ) is
 passes output from the left of the pipe symbol to the command on the right of
-the pipe symbol. 
+the pipe symbol.
+
 **[linux1]\$ cat /proc/sysinfo \| more**
 
 The following writes the output to a unix file
@@ -50,16 +54,19 @@ The \> symbol is known as a redirection. The output is being redirected from the
 terminal display to file sysinfo.txt
 
 **[linux1]\$ ls** 
+
 The ls command will display file names in the current file
 directory
 
 **[linux1]\$ pwd** 
+
 The pwd command will display the current present working
 directory where ls command listed files names.
 
 Assuming sysinfo.txt was created in the present working directory, then the
 following command using \>\> will append data to the sysinfo.txt (note make sure
 there are no spaces between \>\> below) 
+
 **[linux1]\$ cat /etc/\*-release \>\> sysinfo.txt**
 
 sysinfo.txt now contains output from /proc/sysinfo followed by output from /etc/\*-release
@@ -74,6 +81,7 @@ lines at the end of the file (tail).
 
 The following will rename the file. A rename is accomplished with mv (move)
 command. 
+
 **[linux1]\$ mv sysinfo.txt sysinfo.listing**
 
 The following will delete or remove (rm) the file
@@ -83,6 +91,7 @@ The following will delete or remove (rm) the file
 The linux command set is very rich. A few suggested ways to learn about all the
 available commands is to enter one or more letters at the shell prompt, then tab
 key twice. 
+
 **[linux1]\$ ls \<tab> \<tab>**
 
 The output lists all the Linux commands that begin with ls The output has many
@@ -97,6 +106,7 @@ advance 1 line at a time , space bar will advance 1 page at a time, and q would
 quit returning control to the ssh shell prompt 
 
 **[linux1]\# lscpu**
+
 The man pages explain how the lscpu displays information about the CPU architecture. Is that
 BogoMIPS value for real? Try the same command on a different hardware architecture as a comparison. 
 The architecture of LinuxONE hardware has technology only available in this server. 
@@ -229,6 +239,7 @@ OK - out of root authority
 What packages are available in this Linux distribution? Query all packages
 
 **[linux1]\$ rpm -qa \| more** 
+
 RPM is a powerful Package Manager, which can be
 used to build, install, query, verify, update, and erase individual software
 packages. An entire lab is needed to explore RPM.
