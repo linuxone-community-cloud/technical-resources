@@ -212,6 +212,7 @@ If you want to make your changes permanently, issue this command:
 For RHEL:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# sudo service firewalld start
 # sudo firewall-cmd --zone=public --add-port=<port #>/tcp --permanent
 # sudo firewall-cmd --reload
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
