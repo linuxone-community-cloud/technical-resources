@@ -48,7 +48,7 @@ First time setup
 ----------------
 
 1.  After activating your account, log in at
-    https://linuxone.cloud.marist.edu/\#/login
+    https://linuxone.cloud.marist.edu/#/login
 
 -   Enter your **user ID** and the **password** created during registration.
 
