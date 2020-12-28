@@ -5,7 +5,7 @@ Overview
 --------
 
 This document will take you through the steps to get access to the LinuxONE
-community cloud, deploy a virtual virtual and start using it in your project or
+community cloud, deploy a virtual server and start using it in your project or
 in one of the Fast Start Guides.
 
 Steps
