@@ -37,9 +37,7 @@ hardware and virtualization hypervisor hosting this Linux.
 Like the Linux distribution release, this information is very significant and
 will be explained later in these lab instructions.
 
-However, the information streamed past. So, several ways exist to hold data from
-the file on the screen until ready to view more. Space bar will display next
-page and enter will display only the next line of the data.
+However, with the ‘cat” command, the information streams past without the user being able to read it.  While some terminals provide the ability to scroll, there are several ways to hold data from the file on the screen until ready to view more. One of those commands is 'more’, where space bar will display the next page and enter will display only the next line of the data.
 
 **[linux1]\$ more /proc/sysinfo**
 
