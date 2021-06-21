@@ -4,14 +4,14 @@ Deploy a LAMP Stack
 Overview
 --------
 
-The [https://www.ibm.com/cloud/learn/lamp-stack-explained](LAMP stack), traditionally made up of Linux, Apache, MySQL, and PHP, powered explosive growth of web 2.0. Today it's still a powerful stack, with latest innovations being replacing various components, with Linux remaining the only constant.
+The [LAMP stack](https://www.ibm.com/cloud/learn/lamp-stack-explained), traditionally made up of Linux, Apache, MySQL, and PHP, powered explosive growth of web 2.0. Today it's still a powerful stack, with latest innovations being replacing various components, with Linux remaining the only constant.
 
-In this tutorial, we'll set up a basic LAMP stack using the traditional components, with the new MariaDB in place of MySQL, and deploy the popular blogging software, [https://wordpress.org](WordPress), all on a free virtual machine (VM) on the [https://developer.ibm.com/components/ibm-linuxone/gettingstarted/](IBM LinuxONE Community Cloud).
+In this tutorial, we'll set up a basic LAMP stack using the traditional components, with the new MariaDB in place of MySQL, and deploy the popular blogging software, [WordPress](https://wordpress.org), all on a free virtual machine (VM) on the [IBM LinuxONE Community Cloud](https://developer.ibm.com/components/ibm-linuxone/gettingstarted/).
 
 Steps
 -----
 
-1. Deploy a Red Hat Enterprise Linux (RHEL) 8 virtual machine
+1. Deploy a Red Hat Enterprise Linux (RHEL) 8 VM
 
 2. Install the components of the LAMP stack using the RHEL package manager
 
@@ -20,7 +20,7 @@ Steps
 Step 1: Deploy a RHEL 8 VM
 --------------------------
 
-If you're not yet familiar with launching a VM in the LinuxONE Community Cloud, refer to our [https://github.com/linuxone-community-cloud/technical-resources/blob/master/faststart/deploy-virtual-server.md](Virtual Server Deployment Guide).
+If you're not yet familiar with launching a VM in the LinuxONE Community Cloud, refer to our [Virtual Server Deployment Guide](https://github.com/linuxone-community-cloud/technical-resources/blob/master/faststart/deploy-virtual-server.md).
 
 You will have multiple options for which Linux distribution to deploy. For this tutorial, you will want to use the available version of RHEL 8.
 
