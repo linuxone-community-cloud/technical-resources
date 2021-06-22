@@ -1,5 +1,5 @@
-Deploy a LAMP Stack
-===================
+LAMP Stack with WordPress Fast Start Guide
+==========================================
 
 Overview
 --------
