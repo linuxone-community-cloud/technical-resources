@@ -70,7 +70,7 @@ Begin by creating a database user and database:
 mysql -u root
 create user 'wordpress'@'localhost' identified by 'YOUR-PASSWORD-CHANGE-ME';
 create database wordpress;
-grant all on wordpress.\* to 'wordpress'@'localhost';
+grant all on wordpress.* to 'wordpress'@'localhost';
 quit
 ```
 
