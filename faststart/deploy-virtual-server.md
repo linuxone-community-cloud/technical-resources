@@ -25,7 +25,7 @@ Step 1. Request access to LinuxONE Community Cloud.
 1.  In a browser, go to the [LinuxONE Community Cloud
     website](https://developer.ibm.com/components/ibm-linuxone/gettingstarted/).
 
-    ![alt text](images-deploy/dev-home.png)
+    ![alt text](images-deploy/dev-homeNEW.png)
 
 2.  Click **Try Virtual Machines on the LinuxONE Community Cloud**.
 
