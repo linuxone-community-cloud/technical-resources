@@ -29,7 +29,7 @@ Step 1. Request access to LinuxONE Community Cloud.
 
 2.  Click **Try Virtual Machines on the LinuxONE Community Cloud**.
 
-3.  Complete the required fields on the registration form. **Note:** If you were
+3.  Complete the required fields on the registration form. ****Note:**** If you were
     given en **Event Code** please enter it, if not leave it blank)
 
     ![alt text](images-deploy/registration-form.png)
