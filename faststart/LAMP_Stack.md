@@ -6,7 +6,7 @@ Overview
 
 The [LAMP stack](https://www.ibm.com/cloud/learn/lamp-stack-explained), traditionally made up of Linux, Apache, MySQL, and PHP, powered explosive growth of web 2.0. Today it's still a powerful stack, with latest innovations being replacing various components, with Linux remaining the only constant.
 
-In this tutorial, we'll set up a basic LAMP stack using the traditional components, with the new MariaDB in place of MySQL, and deploy the popular blogging software, [WordPress](https://wordpress.org), all on a free virtual machine (VM) on the [IBM LinuxONE Community Cloud](https://developer.ibm.com/components/ibm-linuxone/gettingstarted/).
+In this tutorial, we'll set up a basic LAMP stack using the traditional components, with the new MariaDB in place of MySQL, and deploy the popular blogging software, [WordPress](https://wordpress.org), all on a free virtual machine (VM) on the IBM LinuxONE Community Cloud.
 
 Steps
 -----
