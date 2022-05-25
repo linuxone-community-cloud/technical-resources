@@ -183,19 +183,24 @@ Log in to your LinuxONE virtual server
 Important notes about your server:
 ----------------------------------
 
-1.  You can use ‘sudo’ to execute commands that require root authority.
+1.  You must log in with the user ‘linux1’ with your SSH private key. No
+    modification (use of password authentication, for example) is allowed.
 
-2.  It could take up to 10 minutes to format and mount the /data disk. Issue the
-    following command to verify the /data disk is available before continuing:
+2.  The user ‘root’ login is disabled for security reasons. No modification is
+    allowed.
 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ sh
-    # df -h 
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.  You can use ‘sudo’ to execute commands that require root authority.
+  
+4.  There is no backup for your virtual server. It is the end user’s
+    responsibility to back up any critical data.
 
-    ![alt text](images-deploy/df.png)
+5.  Firewall is enabled via iptables rules. Only the SSH port is open by default. Modify the firewall rules
+    with iptables if you need other ports opened. To check your current enabled iptables rules, issue this command:
 
-3.  Firewall is enabled. Only the SSH port is open. Modify the firewall rules
-    with iptables if you need other ports opened.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# sudo iptables -L
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 For SLES:
 
@@ -206,22 +211,25 @@ For SLES:
 If you want to make your changes permanently, issue this command:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo bash -c "iptables-save > /etc/linuxone/iptables.save" 
+# sudo bash -c "iptables-save > /etc/linuxone/iptables.save"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Note: If you want to use firewall management tool like firewalld, you need to delete the saved iptables file.
+
 
 For RHEL:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo service firewalld start
-# sudo firewall-cmd --zone=public --add-port=<port #>/tcp --permanent
-# sudo firewall-cmd --reload
+# sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1.  To check that the firewall is enabled on both SLES or RHEL:
+If you want to make your changes permanently, issue this command:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# sudo bash -c "iptables-save > /etc/sysconfig/iptables.save"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo iptables-save | grep <port #>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note: If you want to use firewall management tool like firewalld, you need to delete the saved iptables file.
+
 
 For Ubuntu:
 
@@ -235,11 +243,6 @@ If you want to make your changes permanently, issue this command:
 # sudo bash -c "iptables-save > /etc/iptables/rules.v4" 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1.  You must log in with the user ‘linux1’ with your SSH private key. No
-    modification (use of password authentication, for example) is allowed.
+Note: If you want to use firewall management tool like ufw, you need to delete the saved iptables file.
 
-2.  The user ‘root’ login is disabled for security reasons. No modification is
-    allowed.
 
-3.  There is no backup for your virtual server. It is the end user’s
-    responsibility to back up any critical data.
