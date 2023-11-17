@@ -18,6 +18,10 @@ Before you can get the Apache httpd 2.4.58 from Linux distros officially, we hav
 ```
 wget http://148.100.42.7/packages/apache2_2.4.58_s390x.tar.gz
 ```
+Note: for RHEL 9 you need to install "wget" package
+```
+sudo dnf install wget
+```
 3. Unpack the package. 
 ```
 tar xvfz apache2_2.4.58_s390x.tar.gz
