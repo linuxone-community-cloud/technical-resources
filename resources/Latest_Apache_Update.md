@@ -1,5 +1,6 @@
-# CVE-2023-25690 Vulnerability Temp Fix
-### Date: 2023/03
+# Latest Apache manual install Instructions to address latest CVE Vulnerability
+
+### Date: 2023/11
 
 ## Description
 - The version of Apache httpd installed on the remote host is prior to 2.4.58. It is, therefore, affected by multiple vulnerabilities as referenced in the 2.4.58 advisory.
