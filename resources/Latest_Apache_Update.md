@@ -13,7 +13,7 @@ on growing. On connection close, all resources were reclaimed, but the process m
 ## Temporary Fix Instructions
 Before you can get the Apache httpd 2.4.58 from Linux distros officially, we have compipled the package from source code. You can follow below instructions to get the Apache httpd binary code and run it on your LinuxONE VM in the LinuxONE Community Cloud. 
 
-1. Delete your current Aapache http server from your VM.
+1. Delete your current Apache http server from your VM.
 2. Get the Apache 2.4.58
 ```
 wget http://148.100.42.7/packages/apache2_2.4.58_s390x.tar.gz
