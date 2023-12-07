@@ -28,7 +28,7 @@ wget http://148.100.42.7/packages/apache2_2.4.58_s390x.tar.gz
 wget http://148.100.42.7/packages/apache2_2.4.58_sles_s390x.tar.gz
 ```
 
-6. Unpack the package. 
+6. Unpack the package
 For RHEL and Ubuntu
 ```
 tar xvfz apache2_2.4.58_s390x.tar.gz
