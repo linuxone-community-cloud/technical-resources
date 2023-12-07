@@ -55,8 +55,8 @@ sudo dnf install libxcrypt-compat
 
 13. Enable the service and start the http server
    ```
-   systemctl enable apache2.service
-   systemctl start apache2.service
+   sudo systemctl enable apache2.service
+   sudo systemctl start apache2.service
    ```
 
 
