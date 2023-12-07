@@ -32,7 +32,7 @@ wget http://148.100.42.7/packages/apache2_2.4.58_sles_s390x.tar.gz
 ```
 tar xvfz apache2_2.4.58_s390x.tar.gz
 ```
-7. Unpack the packageFor SLES
+7. Unpack the package for SLES
 ```
 tar xvfz apache2_2.4.58_sles_s390x.tar.gz
 ```
