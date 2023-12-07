@@ -28,33 +28,32 @@ wget http://148.100.42.7/packages/apache2_2.4.58_s390x.tar.gz
 wget http://148.100.42.7/packages/apache2_2.4.58_sles_s390x.tar.gz
 ```
 
-6. Unpack the package
-For RHEL and Ubuntu
+6. Unpack the package for RHEL and Ubuntu
 ```
 tar xvfz apache2_2.4.58_s390x.tar.gz
 ```
-For SLES
+7. Unpack the packageFor SLES
 ```
 tar xvfz apache2_2.4.58_sles_s390x.tar.gz
 ```
-7. After unpack, you will see the files like below. 
+8. After unpack, you will see the files like below. 
 ```
 $ ls
 apache2  apache2.service
 ```
-8. Copy `apache2` to `/usr/local/`
+9. Copy `apache2` to `/usr/local/`
 
-9. Note: RHEL 7 packages do not support Apache version 2.4.58
+10. Note: RHEL 7 packages do not support Apache version 2.4.58
 
-10. Note: For RHEL 9 you must install libxcrypt-compat.  
+11. Note: For RHEL 9 you must install libxcrypt-compat.  
 ```
 sudo dnf install libxcrypt-compat
 ```
-11. If you want to use the systemd to manage the httpd service, copy the file `apache2.service` to your distro's systemd library directory. The directory location varies in different distros. Below is the directory location of each distro:
+12. If you want to use the systemd to manage the httpd service, copy the file `apache2.service` to your distro's systemd library directory. The directory location varies in different distros. Below is the directory location of each distro:
    - RHEL and SLES: `/usr/lib/systemd/system`
    - Ubuntu: `/lib/systemd/system` 
 
-12. Enable the service and start the http server
+13. Enable the service and start the http server
    ```
    systemctl enable apache2.service
    systemctl start apache2.service
