@@ -25,7 +25,7 @@ Step 1. Request access to LinuxONE Community Cloud.
 1.  In a browser, go to the [LinuxONE Community Cloud
     website](https://community.ibm.com/zsystems/l1cc/).
 
-    ![alt text](images-deploy/dev-homeNEW.png)
+    ![alt text](images-deploy/Try_VM_L1CC.png)
 
 2.  Click **Try Virtual Machines on the LinuxONE Community Cloud**.
 
