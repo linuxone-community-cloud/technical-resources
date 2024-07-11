@@ -14,7 +14,7 @@ on growing. On connection close, all resources were reclaimed, but the process m
 If Apache httpd 2.4.59 is not yet available from the Linux distros officially, you can use these instructions to get the appropriate level of Apache httpd installe.  We have compiled the package from source code. You can follow below instructions to get the Apache httpd binary code and run it on your LinuxONE VM in the LinuxONE Community Cloud. 
 
 1. Delete your current Apache http server from your VM.
-2. For RHEL8 and RHEL9 and Ubuntu, get the Apache 2.4.59
+2. For RHEL8, RHEL9, SLES15, and Ubuntu, get the Apache 2.4.59
 ```
 wget http://148.100.42.7/packages/apache2_2.4.59_s390x.tar.gz
 ```
