@@ -36,11 +36,12 @@ apache2  apache2.service
 7. Note: RHEL 7 packages do not support Apache version 2.4.58
 
 8. Note: For RHEL 9
-a). You must install libxcrypt-compat.  
+   
+   - You must install libxcrypt-compat.  
 ```
-sudo dnf install libxcrypt-compat
+   sudo dnf install libxcrypt-compat
 ```
-b). You need to add SELinux rule for the apache2 server or disable the SELinux. 
+   - You need to add SELinux rule for the apache2 server or disable the SELinux. 
 
 9. If you want to use the systemd to manage the httpd service, copy the file `apache2.service` to your distro's systemd library directory. The directory location varies in different distros. Below is the directory location of each distro:
    - RHEL and SLES: `/usr/lib/systemd/system`
