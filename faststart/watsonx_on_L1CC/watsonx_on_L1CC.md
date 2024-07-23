@@ -28,7 +28,7 @@ _TIP: you can find details about how to obtain your SSH key or server IP address
 #### Use curl to download the pre-built Python script from the GitHub
 
 ```bash
-curl -O https://raw.githubusercontent.com/andriivasylchenko/l1cc-support-assistant-guide/main/support.py
+curl -O https://raw.githubusercontent.com/linuxone-community-cloud/watsonz_on_L1CC/support.py
 ```
 
 #### Run the IBM LinuxONE Community Cloud support assistant
