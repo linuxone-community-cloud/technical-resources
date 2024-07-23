@@ -28,7 +28,7 @@ _TIP: you can find details about how to obtain your SSH key or server IP address
 #### Use curl to download the pre-built Python script from the GitHub
 
 ```bash
-curl -O https://github.com/linuxone-community-cloud/technical-resources/edit/master/faststart/watsonx_on_L1CC/watsonx_on_L1CC.md
+curl -O [https://github.com/linuxone-community-cloud/technical-resources/edit/master/faststart/watsonx_on_L1CC/watsonx_on_L1CC.md](https://github.com/linuxone-community-cloud/technical-resources/blob/master/faststart/watsonx_on_L1CC/support.py)
 ```
 
 #### Run the IBM LinuxONE Community Cloud support assistant
