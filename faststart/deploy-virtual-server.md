@@ -173,12 +173,18 @@ Log in to your LinuxONE virtual server
     # ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### From Windows using PuTTY
+### From Windows using PowerShell or PuTTY
 
-1.  Set up PuTTY to use the SSH key for your server. Refer to the [Setting up
+1. In PowerShell, enter ssh command with the private key, linux1 user ID and IP address of your server.
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # ssh -i "C:\path\to\your\private_key_file" linux1@serveripaddress
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+2.  In PuTTY, configure it to use the SSH key for your server. Refer to the [Setting up
     PUTTY on Windows to use ssh private key](PUTTY_Set_up.pdf) tutorial.
 
-2.  Log in to the linux1 user ID.
+3.  Log in to the linux1 user ID.
 
 Important notes about your server:
 ----------------------------------
