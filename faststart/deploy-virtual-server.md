@@ -170,7 +170,7 @@ Log in to your LinuxONE virtual server
     the LinuxONE Community Cloud.
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    # ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
+    # ssh -i /path/to/key/keyname.pem linux1@serveripaddress 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### From Windows using PowerShell or PuTTY
