@@ -30,7 +30,7 @@ Step 1. Request access to LinuxONE Community Cloud.
 2.  Click **Try Virtual Machines on the LinuxONE Community Cloud**.
 
 3.  Complete the required fields on the registration form. **Note:** If you were
-    given en **Event Code** please enter it, if not leave it blank)
+    given an **Event Code** please enter it, if not leave it blank)
 
     ![alt text](images-deploy/registration-form.png)
 
@@ -40,7 +40,7 @@ Step 1. Request access to LinuxONE Community Cloud.
 
 5.  Check your email for a registration confirmation similar to the following
     shown. You will need your User ID and Password from this email to sign in to
-    the self service portal.
+    the self-service portal.
 
     ![alt text](images-deploy/welcome-email.png)
 
@@ -57,7 +57,7 @@ First time setup
     ![alt text](images-deploy/ssp-login.png)
 
 1.  Now is also a good time to create or import an SSH key. An SSH public key is
-    required to deploy Linux instance. The instance can only be accessed with
+    required to deploy a Linux instance. The instance can only be accessed with
     your private key that matches the public key. You can generate one now or
     wait until you deploy your first instance.
 
@@ -116,7 +116,7 @@ Deploy your LinuxONE virtual server
 
 1.  Your Virtual Server type will automatically be "General purpose VM".
 
-2.  Provide details information for this instance.
+2.  Provide detailed information for this instance.
 
 -   An **Instance Name**, without any spaces or special characters.
 
@@ -164,7 +164,7 @@ Log in to your LinuxONE virtual server
 
 -   UserID: linux1
 
--   `-i` lets SSH know which identity file to use access the Linux guest.
+-   `-i` lets SSH know which identity file to use to access the Linux guest.
 
 -   Serveripaddress: This was written down from the *Manage Instances* page of
     the LinuxONE Community Cloud.
