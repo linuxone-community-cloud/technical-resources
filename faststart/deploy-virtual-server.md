@@ -50,24 +50,24 @@ First time setup
 1.  After activating your account, log in at
     https://linuxone.cloud.marist.edu/#/login
 
--   Enter your **user ID** and the **password** created during registration.
+    -   Enter your **user ID** and the **password** created during registration.
 
--   Click **Sign in**.
+    -   Click **Sign in**.
 
-    ![alt text](images-deploy/ssp-login.png)
+        ![alt text](images-deploy/ssp-login.png)
 
 1.  Now is also a good time to create or import an SSH key. An SSH public key is
     required to deploy Linux instance. The instance can only be accessed with
     your private key that matches the public key. You can generate one now or
     wait until you deploy your first instance.
 
--   Click **Virtual Servers** in the upper left corner of the page.
+    -   Click **Virtual Servers** in the upper left corner of the page.
 
--   Next click your **username** from the upper right corner of the Home page.
+    -   Next click your **username** from the upper right corner of the Home page.
 
--   Select **Manage SSH Key Pairs**.
+    -   Select **Manage SSH Key Pairs**.
 
-    ![alt text](images-deploy/manage-key.png)
+        ![alt text](images-deploy/manage-key.png)
 
 1.  If you already have a public SSH key you wish to use with this cloud:
 
@@ -84,21 +84,21 @@ First time setup
 2.  If you want to create a new SSH key pair:  
     
 
--   Click **Create**.
+    -   Click **Create**.
 
--   Enter a **Key Name** for this key.
+    -   Enter a **Key Name** for this key.
 
--   Click **Create a new key pair**.  
+    -   Click **Create a new key pair**.  
     
 
--   A pop-up window will appear asking you to save **yourkey. pem** file. This
-    is your private key. Please save it to a secure location. Once this
-    operation is complete, there is no way to retrieve this key. Click **OK** to
-    save the file.
+    -   A pop-up window will appear asking you to save **yourkey. pem** file. This
+        is your private key. Please save it to a secure location. Once this
+        operation is complete, there is no way to retrieve this key. Click **OK** to
+        save the file.
 
-![alt text](images-deploy/create-key.png)
+    ![alt text](images-deploy/create-key.png)
 
-![alt text](images-deploy/pem-file.png)
+    ![alt text](images-deploy/pem-file.png)
 
 Deploy your LinuxONE virtual server
 -----------------------------------
@@ -106,19 +106,19 @@ Deploy your LinuxONE virtual server
 1.  Go to the **Home** page, **Service Catalog** section and **Virtual Servers**
     service.
 
--   Click **Manage Instances**.
+    -   Click **Manage Instances**.
 
-    ![alt text](images-deploy/manage-instances.png)
+        ![alt text](images-deploy/manage-instances.png)
 
--   Click **Create**.
+    -   Click **Create**.
 
-    ![alt text](images-deploy/create-server.png)
+        ![alt text](images-deploy/create-server.png)
 
 1.  Your Virtual Server type will automatically be "General purpose VM".
 
 2.  Provide details information for this instance.
 
--   An **Instance Name**, without any spaces or special characters.
+    -   An **Instance Name**, without any spaces or special characters.
 
 1.  Select the desired Linux image.
 
@@ -162,12 +162,12 @@ Log in to your LinuxONE virtual server
 
 4.  Use SSH to access the Linux guest.
 
--   UserID: linux1
+    -   UserID: linux1
 
--   `-i` lets SSH know which identity file to use access the Linux guest.
+    -   `-i` lets SSH know which identity file to use access the Linux guest.
 
--   Serveripaddress: This was written down from the *Manage Instances* page of
-    the LinuxONE Community Cloud.
+    -   Serveripaddress: This was written down from the *Manage Instances* page of
+        the LinuxONE Community Cloud.
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     # ssh –i /path/to/key/keyname.pem linux1@serveripaddress 
@@ -203,52 +203,52 @@ Important notes about your server:
 5.  Firewall is enabled via iptables rules. Only the SSH port is open by default. Modify the firewall rules
     with iptables if you need other ports opened. To check your current enabled iptables rules, issue this command:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo iptables -L
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # sudo iptables -L
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-For SLES:
+    For SLES:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to make your changes permanently, issue this command:
+    If you want to make your changes permanently, issue this command:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo bash -c "iptables-save > /etc/linuxone/iptables.save"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # sudo bash -c "iptables-save > /etc/linuxone/iptables.save"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Note: If you want to use firewall management tool like firewalld, you need to delete the saved iptables file.
-
-
-For RHEL:
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you want to make your changes permanently, issue this command:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo bash -c "iptables-save > /etc/sysconfig/iptables.save"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Note: If you want to use firewall management tool like firewalld, you need to delete the saved iptables file.
+    Note: If you want to use firewall management tool like firewalld, you need to delete the saved iptables file.
 
 
-For Ubuntu:
+    For RHEL:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to make your changes permanently, issue this command:
+    If you want to make your changes permanently, issue this command:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # sudo bash -c "iptables-save > /etc/sysconfig/iptables.save"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# sudo bash -c "iptables-save > /etc/iptables/rules.v4" 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Note: If you want to use firewall management tool like firewalld, you need to delete the saved iptables file.
 
-Note: If you want to use firewall management tool like ufw, you need to delete the saved iptables file.
+
+    For Ubuntu:
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # sudo iptables -I INPUT -p tcp --dport <port#> -j ACCEPT 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    If you want to make your changes permanently, issue this command:
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    # sudo bash -c "iptables-save > /etc/iptables/rules.v4" 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Note: If you want to use firewall management tool like ufw, you need to delete the saved iptables file.
 
 
